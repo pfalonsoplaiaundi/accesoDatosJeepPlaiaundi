@@ -77,8 +77,5 @@ public class Producto {
 	}
 	public void setTipoIva(int tipoIva) {
 		this.tipoIva = tipoIva;
-	}
-	
-	
-	
+	}	
 }

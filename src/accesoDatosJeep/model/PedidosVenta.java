@@ -52,8 +52,5 @@ public class PedidosVenta {
 	}
 	public void setProducto(Producto producto) {
 		this.producto = producto;
-	}
-	
-	
-	
+	}	
 }

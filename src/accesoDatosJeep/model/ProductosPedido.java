@@ -45,7 +45,4 @@ public class ProductosPedido {
 	public void setProducto(Producto producto) {
 		this.producto = producto;
 	}
-	
-	
-	
 }
