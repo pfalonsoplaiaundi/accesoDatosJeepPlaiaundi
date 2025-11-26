@@ -1,99 +1,124 @@
-create database prueba;
-use prueba;
+DROP DATABASE IF EXISTS jeep_demo;
+CREATE DATABASE IF NOT EXISTS jeep_demo;
+USE jeep_demo; 
 
-CREATE TABLE IF NOT EXISTS productos (
-    idProducto INT AUTO_INCREMENT PRIMARY KEY,
-    alias VARCHAR(20),
-    descripcion VARCHAR(100),
-    precioVenta DECIMAL(10,2),
-    precioCompra DECIMAL(10,2),
-    stock INT,
-    categoria VARCHAR(50),
-    tipoIva DECIMAL(5,2)
+-- Structure
+CREATE TABLE Facturas (
+    id bigint unsigned auto_increment,
+    subtotal decimal NOT NULL,
+    idEmpleado bigint unsigned,
+    fecha date NOT NULL,
+    iva decimal NOT NULL,
+    ptoGenerados bigint NOT NULL,
+    bPagado boolean NOT NULL,
+    CONSTRAINT pk_table_facturas_id PRIMARY KEY (id)
 );
 
-CREATE TABLE IF NOT EXISTS proveedores (
-    idProveedor INT AUTO_INCREMENT PRIMARY KEY,
-    nombre VARCHAR(100),
-    CIF VARCHAR(20),
-    direccion VARCHAR(200),
-    prioridad INT
-);
-drop table PedidosProveedor;
-CREATE TABLE IF NOT EXISTS PedidosProveedor (
-    idPedido INT AUTO_INCREMENT PRIMARY KEY,
-    idProducto INT,
-    fechaPedido DATE,
-    fechaRecibo DATE,
-    idEmpleado INT,
-    idProveedor INT,
-    cantidad INT,
-    precio DECIMAL(10,2),
-    FOREIGN KEY (idProducto) REFERENCES productos(idProducto),
-    FOREIGN KEY (idProveedor) REFERENCES proveedores(idProveedor)
+CREATE TABLE proveedores (
+    id bigint unsigned auto_increment,
+    nombre varchar(100),
+    CIF char(9) unique,
+    direccion text,
+    prioridad integer,
+    CONSTRAINT pk_table_proveedores_id PRIMARY KEY (id)
 );
 
-CREATE TABLE IF NOT EXISTS usuarios (
-    idUsuario INT AUTO_INCREMENT PRIMARY KEY,
-    nombre VARCHAR(50),
-    apellido VARCHAR(50),
-    contraseña VARCHAR(255),
-    email VARCHAR(100),
-    dni VARCHAR(20)
+CREATE TABLE empleados (
+	id bigint unsigned auto_increment,
+    rol enum('admin', 'jefe', 'empleado') NOT NULL,
+    idUsuario bigint unsigned NOT NULL,
+    CONSTRAINT pk_table_empleados_id PRIMARY KEY (id)
 );
 
-CREATE TABLE IF NOT EXISTS empleados (
-    idEmpleado INT AUTO_INCREMENT PRIMARY KEY,
-    rol ENUM('jefe','empleado') NOT NULL,
-    idUsuario INT NOT NULL,
-    FOREIGN KEY (idUsuario) REFERENCES usuarios(idUsuario)
+CREATE TABLE productosPedido (
+	id bigint unsigned auto_increment,
+	idPedido bigint unsigned NOT NULL,
+    precioFinal decimal NOT NULL,
+    dctoPorcen decimal NOT NULL,
+    cantidad integer NOT NULL,
+    idProducto bigint unsigned,
+    CONSTRAINT pk_table_productosPedido_id PRIMARY KEY(id)
 );
 
-CREATE TABLE IF NOT EXISTS facturas (
-    idFactura INT AUTO_INCREMENT PRIMARY KEY,
-    subtotal DECIMAL(10,2) NOT NULL,
-    idEmpleado INT NOT NULL,
-    fecha DATE NOT NULL,
-    iva DECIMAL(5,2) NOT NULL,
-    ptoGenerados INT DEFAULT 0,
-    bPagado BOOLEAN DEFAULT FALSE,
-    FOREIGN KEY (idEmpleado) REFERENCES empleados(idEmpleado)
+CREATE TABLE pedidosProveedor (
+	id bigint unsigned auto_increment,
+    idProducto bigint unsigned,
+    fecPedido date,
+    fecRecibo date,
+    idEmpleado bigint unsigned,
+    idProveedor bigint unsigned,
+    cantidad bigint,
+    precio decimal,
+    CONSTRAINT pk_table_pedidosProveedor_id PRIMARY KEY (id)
 );
 
-CREATE TABLE IF NOT EXISTS clientes (
-    idCliente INT AUTO_INCREMENT PRIMARY KEY,
-    ptoFidelidad INT DEFAULT 0,
-    direccion VARCHAR(200),
-    deuda DECIMAL(10,2) DEFAULT 0.00,
-    idUsuario INT NOT NULL,
-    FOREIGN KEY (idUsuario) REFERENCES usuarios(idUsuario)
+CREATE TABLE pedidosVenta (
+	id bigint unsigned auto_increment,
+    fecha date NOT NULL,
+    bRecoger boolean NOT NULL,
+    fecEntrega date,
+    direccion text NOT NULL,
+    idFactura bigint unsigned,
+    idCliente bigint unsigned NOT NULL,
+    CONSTRAINT pk_table_pedidosVenta_id PRIMARY KEY (id)
 );
 
-CREATE TABLE IF NOT EXISTS PedidoVenta (
-    idPedido INT AUTO_INCREMENT PRIMARY KEY,
-    fecha DATE NOT NULL,
-    bRecogido BOOLEAN DEFAULT FALSE,
-    fechaEntrega DATE,
-    direccion VARCHAR(200),
-    idFactura INT NOT NULL,
-    idCliente INT NOT NULL,
-    FOREIGN KEY (idFactura) REFERENCES facturas(idFactura),
-    FOREIGN KEY (idCliente) REFERENCES clientes(idCliente)
+CREATE TABLE productos (
+    id bigint unsigned auto_increment,
+    alias varchar(200) NOT NULL,
+    descripcion text,
+    precioVenta decimal(10,2) NOT NULL,
+    precioCompra decimal(10,2) NOT NULL,
+    stock bigint NOT NULL,
+    categoria enum('juguetes', 'alimentos', 'maquinaria', 'herramientas', 'papeleria', 'manualidades', 'tecnologia', 'mascotas', 'cuidado_personal') NOT NULL,
+    tipoIva integer unsigned NOT NULL,
+    CONSTRAINT pk_table_productos_id PRIMARY KEY (id)
 );
 
-drop table ProductosFactura;
-CREATE TABLE IF NOT EXISTS ProductosFactura (
-    idProductoFactura INT AUTO_INCREMENT PRIMARY KEY,
-    idPedido INT NOT NULL,
-    precioFinal DECIMAL(10,2) NOT NULL,
-    descuentoPorcentaje DECIMAL(5,2) DEFAULT 0.00,
-    cantidad INT NOT NULL,
-    idProducto INT NOT NULL,
-    FOREIGN KEY (idPedido) REFERENCES PedidoVenta(idPedido),
-    FOREIGN KEY (idProducto) REFERENCES productos(idProducto)
+CREATE TABLE clientes (
+    id bigint unsigned auto_increment,
+    ptoFidelidad integer unsigned,
+    direccion text NOT NULL,
+    deuda decimal,
+    idUsuario bigint unsigned NOT NULL,
+    CONSTRAINT pk_table_clientes_id PRIMARY KEY (id)
 );
 
-INSERT INTO usuarios (nombre, apellido, contraseña, email, dni) VALUES
+CREATE TABLE usuarios (
+    id bigint unsigned auto_increment,
+    nombre varchar(100) NOT NULL,
+    ape varchar(100) NOT NULL,
+    pass varchar(256) NOT NULL,
+    email varchar(200) NOT NULL,
+    dni char(9) NOT NULL,
+    CONSTRAINT pk_table_usuarios_id PRIMARY KEY (id)
+);
+
+-- Foreign key constraints
+ALTER TABLE clientes ADD CONSTRAINT fk_Clientes_idUsuario_Usuarios_id FOREIGN KEY(idUsuario) REFERENCES Usuarios(id);
+ALTER TABLE facturas ADD CONSTRAINT fk_Facturas_idEmpleado_Empleados_id FOREIGN KEY(idEmpleado) REFERENCES empleados(id);
+ALTER TABLE pedidosProveedor ADD CONSTRAINT fk_PedidosProveedor_idEmpleado_Empleados_id FOREIGN KEY(idEmpleado) REFERENCES empleados(id);
+ALTER TABLE pedidosProveedor ADD CONSTRAINT fk_PedidosProveedor_idProducto_Productos_id FOREIGN KEY(idProducto) REFERENCES productos(id);
+ALTER TABLE pedidosVenta ADD CONSTRAINT fk_PedidosVenta_idCliente_Clientes_id FOREIGN KEY(idCliente) REFERENCES clientes(id);
+ALTER TABLE pedidosVenta ADD CONSTRAINT fk_PedidosVenta_idFactura_Facturas_id FOREIGN KEY(idFactura) REFERENCES facturas(id);
+ALTER TABLE productosPedido ADD CONSTRAINT fk_productosPedido_idPedido_PedidoVenta_id FOREIGN KEY(idPedido) REFERENCES pedidosVenta(id);
+ALTER TABLE productosPedido ADD CONSTRAINT fk_productosPedido_idProducto_Productos_id FOREIGN KEY(idProducto) REFERENCES productos(id);
+ALTER TABLE pedidosProveedor ADD CONSTRAINT fk_PedidosProveedor_idProveedor_Proveedores_id FOREIGN KEY(idProveedor) REFERENCES proveedores(id);
+ALTER TABLE empleados ADD CONSTRAINT fk_Empleados_idUsuario_Usuarios_id FOREIGN KEY(idUsuario) REFERENCES usuarios(id);
+
+-- USERS
+-- localhost
+-- create user "jeep"@"localhost" identified by "jip";
+grant all on jeep_demo.* to "jeep"@"localhost";
+-- pablo
+-- create user "jeep"@10.10.13.120 identified by "jip";
+grant all on jeep_demo.* to "jeep"@10.10.13.120;
+-- iker
+-- create user "jeep"@10.10.13.115 identified by "jip";
+grant all on jeep_demo.* to "jeep"@10.10.13.115;
+
+-- Demo data
+INSERT INTO usuarios (nombre, ape, pass, email, dni) VALUES
 ('Ana', 'García', 'pass123', 'ana.garcia@example.com', '12345678A'),
 ('Luis', 'Pérez', 'pass123', 'luis.perez@example.com', '23456789B'),
 ('María', 'López', 'pass123', 'maria.lopez@example.com', '34567890C'),
@@ -124,25 +149,25 @@ INSERT INTO empleados (rol, idUsuario) VALUES
 ('empleado', 2);
 
 INSERT INTO productos (alias, descripcion, precioVenta, precioCompra, stock, categoria, tipoIva) VALUES
-('ag', 'Agenda', 1.0, 0.3, 30, 'Papeleria/Oficina', 12),
-('aj', 'Aguja', 0.5, 0.05, 200, 'Costura/Manualidades', 12),
-('ac', 'Archivadores de color', 1.2, 0.4, 0, 'Papeleria/Oficina', 12),
-('au', 'Auriculares', 4.0, 1.5, 15, 'Tecnologia/Accesorios', 12),
-('bl', 'Boligrafo', 0.7, 0.1, 100, 'Papeleria/Oficina', 12),
-('bh', 'Bolsas de heces', 1.0, 0.2, 10, 'Mascota', 12),
-('bt', 'Boton', 0.3, 0.03, 400, 'Costura/Manualidades', 12),
-('cu', 'Cable USB', 2.5, 0.8, 20, 'Tecnologia/Accesorios', 12),
-('cm', 'Cama de mascotas', 6.0, 2.0, 14, 'Mascota', 12),
-('cg', 'Cargador', 3.5, 1.0, 35, 'Tecnologia/Accesorios', 12),
-('cc', 'Carpeta de color', 1.0, 0.35, 50, 'Papeleria/Oficina', 12),
-('cp', 'Cepillo', 1.0, 0.25, 35, 'Cuidado Personal', 12),
-('ct', 'Cinta de color', 0.6, 0.1, 80, 'Costura/Manualidades', 12),
-('ca', 'Cinta adhesiva', 1.0, 0.2, 73, 'Herramienta/Ferreteria', 12),
-('ci', 'Cinta aislante negra', 0.8, 0.15, 54, 'Herramienta/Ferreteria', 12),
-('cl', 'Clavos', 0.4, 0.05, 164, 'Herramienta/Ferreteria', 12),
-('ch', 'Coche', 3.0, 0.7, 29, 'Juguetes/Regalos', 12),
-('co', 'Collar de mascota', 2.0, 0.5, 13, 'Mascota', 12),
-('cn', 'Cortauñas', 1.2, 0.3, 41, 'Cuidado Personal', 12);
+('Agenda', 'Cuaderno de organización diaria para oficina', 1.0, 0.3, 30, 'papeleria', 12),
+('Aguja', 'Pack de agujas de acero para costura fina', 0.5, 0.05, 200, 'manualidades', 12),
+('Archivadores de color', 'Archivador A4 con anillas y lomo ancho', 1.2, 0.4, 0, 'papeleria', 12),
+('Auriculares', 'Auriculares estéreo básicos con conexión jack 3.5mm', 4.0, 1.5, 15, 'tecnologia', 12),
+('Boligrafo', 'Bolígrafo de tinta azul punta media', 0.7, 0.1, 100, 'papeleria', 12),
+('Bolsas de heces', 'Rollo de bolsas higiénicas biodegradables', 1.0, 0.2, 10, 'mascotas', 12),
+('Boton', 'Botones de plástico redondos para recambio', 0.3, 0.03, 400, 'manualidades', 12),
+('Cable USB', 'Cable de carga y transferencia de datos estándar', 2.5, 0.8, 20, 'tecnologia', 12),
+('Cama de mascotas', 'Cama acolchada suave para perros pequeños o gatos', 6.0, 2.0, 14, 'mascotas', 12),
+('Cargador', 'Adaptador de corriente USB de pared', 3.5, 1.0, 35, 'tecnologia', 12),
+('Carpeta de color', 'Carpeta clasificadora de cartulina resistente', 1.0, 0.35, 50, 'papeleria', 12),
+('Cepillo', 'Cepillo de pelo ergonómico antienredos', 1.0, 0.25, 35, 'cuidado_personal', 12),
+('Cinta de color', 'Cinta decorativa de tela satinada', 0.6, 0.1, 80, 'manualidades', 12),
+('Cinta adhesiva', 'Rollo de celo transparente de alta adherencia', 1.0, 0.2, 73, 'herramientas', 12),
+('Cinta aislante negra', 'Cinta aislante de PVC para cables eléctricos', 0.8, 0.15, 54, 'herramientas', 12),
+('Clavos', 'Caja de clavos de acero galvanizado surtidos', 0.4, 0.05, 164, 'herramientas', 12),
+('Coche', 'Coche de juguete metálico a escala', 3.0, 0.7, 29, 'juguetes', 12),
+('Collar de mascota', 'Collar ajustable de nylon con cierre de clip', 2.0, 0.5, 13, 'mascotas', 12),
+('Cortauñas', 'Cortauñas de acero inoxidable con lima', 1.2, 0.3, 41, 'cuidado_personal', 12);
 
 INSERT INTO proveedores (nombre, CIF, direccion, prioridad) VALUES
 ('EuroAsia Distribuciones S.L', 'B12345678', 'Calle del Comercio 12', 9),
@@ -153,27 +178,27 @@ INSERT INTO proveedores (nombre, CIF, direccion, prioridad) VALUES
 ('FerreChina S.A.', 'A34567890', 'Calle Tornillería 8', 8),
 ('Juegos & Peluches World S.L.', 'B78901234', 'Avenida del Juguete 15', 7);
 
-INSERT INTO PedidosProveedor (idProducto, fechaPedido, fechaRecibo, idEmpleado, idProveedor, cantidad, precio)
+INSERT INTO PedidosProveedor (idProducto, fecPedido, fecRecibo, idEmpleado, idProveedor, cantidad, precio)
 VALUES
-((SELECT idProducto FROM productos WHERE descripcion='Agenda'), '2025-11-20', '2025-11-27', 1, (SELECT idProveedor FROM proveedores WHERE nombre='EuroAsia Distribuciones S.L'), 100, (SELECT precioCompra FROM productos WHERE descripcion='Agenda')),
-((SELECT idProducto FROM productos WHERE descripcion='Aguja'), '2025-11-22', '2025-11-29', 1, (SELECT idProveedor FROM proveedores WHERE nombre='Mercería Global Import S.L.'), 300, (SELECT precioCompra FROM productos WHERE descripcion='Aguja')),
-((SELECT idProducto FROM productos WHERE descripcion='Archivadores de color'), '2025-11-24', '2025-12-01', 1, (SELECT idProveedor FROM proveedores WHERE nombre='EuroAsia Distribuciones S.L'), 50, (SELECT precioCompra FROM productos WHERE descripcion='Archivadores de color')),
-((SELECT idProducto FROM productos WHERE descripcion='Auriculares'), '2025-11-26', '2025-12-03', 1, (SELECT idProveedor FROM proveedores WHERE nombre='Tech Supplies Shenzhen EU'), 30, (SELECT precioCompra FROM productos WHERE descripcion='Auriculares')),
-((SELECT idProducto FROM productos WHERE descripcion='Boligrafo'), '2025-11-28', '2025-12-05', 1, (SELECT idProveedor FROM proveedores WHERE nombre='EuroAsia Distribuciones S.L'), 200, (SELECT precioCompra FROM productos WHERE descripcion='Boligrafo')),
-((SELECT idProducto FROM productos WHERE descripcion='Bolsas de heces'), '2025-11-30', '2025-12-07', 1, (SELECT idProveedor FROM proveedores WHERE nombre='Mascotas Import Europe'), 100, (SELECT precioCompra FROM productos WHERE descripcion='Bolsas de heces')),
-((SELECT idProducto FROM productos WHERE descripcion='Boton'), '2025-12-02', '2025-12-09', 1, (SELECT idProveedor FROM proveedores WHERE nombre='Mercería Global Import S.L.'), 500, (SELECT precioCompra FROM productos WHERE descripcion='Boton')),
-((SELECT idProducto FROM productos WHERE descripcion='Cable USB'), '2025-12-04', '2025-12-11', 1, (SELECT idProveedor FROM proveedores WHERE nombre='Tech Supplies Shenzhen EU'), 50, (SELECT precioCompra FROM productos WHERE descripcion='Cable USB')),
-((SELECT idProducto FROM productos WHERE descripcion='Cama de mascotas'), '2025-12-06', '2025-12-13', 1, (SELECT idProveedor FROM proveedores WHERE nombre='Mascotas Import Europe'), 15, (SELECT precioCompra FROM productos WHERE descripcion='Cama de mascotas')),
-((SELECT idProducto FROM productos WHERE descripcion='Cargador'), '2025-12-08', '2025-12-15', 1, (SELECT idProveedor FROM proveedores WHERE nombre='Tech Supplies Shenzhen EU'), 50, (SELECT precioCompra FROM productos WHERE descripcion='Cargador')),
-((SELECT idProducto FROM productos WHERE descripcion='Carpeta de color'), '2025-12-10', '2025-12-17', 1, (SELECT idProveedor FROM proveedores WHERE nombre='EuroAsia Distribuciones S.L'), 50, (SELECT precioCompra FROM productos WHERE descripcion='Carpeta de color')),
-((SELECT idProducto FROM productos WHERE descripcion='Cepillo'), '2025-12-12', '2025-12-19', 1, (SELECT idProveedor FROM proveedores WHERE nombre='Belleza Económica Globa'), 50, (SELECT precioCompra FROM productos WHERE descripcion='Cepillo')),
-((SELECT idProducto FROM productos WHERE descripcion='Cinta de color'), '2025-12-14', '2025-12-21', 1, (SELECT idProveedor FROM proveedores WHERE nombre='Mercería Global Import S.L.'), 100, (SELECT precioCompra FROM productos WHERE descripcion='Cinta de color')),
-((SELECT idProducto FROM productos WHERE descripcion='Cinta adhesiva'), '2025-12-16', '2025-12-23', 1, (SELECT idProveedor FROM proveedores WHERE nombre='FerreChina S.A.'), 100, (SELECT precioCompra FROM productos WHERE descripcion='Cinta adhesiva')),
-((SELECT idProducto FROM productos WHERE descripcion='Cinta aislante negra'), '2025-12-18', '2025-12-25', 1, (SELECT idProveedor FROM proveedores WHERE nombre='FerreChina S.A.'), 50, (SELECT precioCompra FROM productos WHERE descripcion='Cinta aislante negra')),
-((SELECT idProducto FROM productos WHERE descripcion='Clavos'), '2025-12-20', '2025-12-27', 1, (SELECT idProveedor FROM proveedores WHERE nombre='FerreChina S.A.'), 300, (SELECT precioCompra FROM productos WHERE descripcion='Clavos')),
-((SELECT idProducto FROM productos WHERE descripcion='Coche'), '2025-12-22', '2025-12-29', 1, (SELECT idProveedor FROM proveedores WHERE nombre='Juegos & Peluches World S.L.'), 300, (SELECT precioCompra FROM productos WHERE descripcion='Coche')),
-((SELECT idProducto FROM productos WHERE descripcion='Collar de mascota'), '2025-12-24', '2025-12-31', 1, (SELECT idProveedor FROM proveedores WHERE nombre='Mascotas Import Europe'), 30, (SELECT precioCompra FROM productos WHERE descripcion='Collar de mascota')),
-((SELECT idProducto FROM productos WHERE descripcion='Cortauñas'), '2025-12-26', '2026-01-02', 1, (SELECT idProveedor FROM proveedores WHERE nombre='Belleza Económica Globa'), 50, (SELECT precioCompra FROM productos WHERE descripcion='Cortauñas'));
+((SELECT id FROM productos WHERE alias='Agenda'), '2025-11-20', '2025-11-27', 1, (SELECT id FROM proveedores WHERE nombre='EuroAsia Distribuciones S.L'), 100, (SELECT precioCompra FROM productos WHERE alias='Agenda')),
+((SELECT id FROM productos WHERE alias='Aguja'), '2025-11-22', '2025-11-29', 1, (SELECT id FROM proveedores WHERE nombre='Mercería Global Import S.L.'), 300, (SELECT precioCompra FROM productos WHERE alias='Aguja')),
+((SELECT id FROM productos WHERE alias='Archivadores de color'), '2025-11-24', '2025-12-01', 1, (SELECT id FROM proveedores WHERE nombre='EuroAsia Distribuciones S.L'), 50, (SELECT precioCompra FROM productos WHERE alias='Archivadores de color')),
+((SELECT id FROM productos WHERE alias='Auriculares'), '2025-11-26', '2025-12-03', 1, (SELECT id FROM proveedores WHERE nombre='Tech Supplies Shenzhen EU'), 30, (SELECT precioCompra FROM productos WHERE alias='Auriculares')),
+((SELECT id FROM productos WHERE alias='Boligrafo'), '2025-11-28', '2025-12-05', 1, (SELECT id FROM proveedores WHERE nombre='EuroAsia Distribuciones S.L'), 200, (SELECT precioCompra FROM productos WHERE alias='Boligrafo')),
+((SELECT id FROM productos WHERE alias='Bolsas de heces'), '2025-11-30', '2025-12-07', 1, (SELECT id FROM proveedores WHERE nombre='Mascotas Import Europe'), 100, (SELECT precioCompra FROM productos WHERE alias='Bolsas de heces')),
+((SELECT id FROM productos WHERE alias='Boton'), '2025-12-02', '2025-12-09', 1, (SELECT id FROM proveedores WHERE nombre='Mercería Global Import S.L.'), 500, (SELECT precioCompra FROM productos WHERE alias='Boton')),
+((SELECT id FROM productos WHERE alias='Cable USB'), '2025-12-04', '2025-12-11', 1, (SELECT id FROM proveedores WHERE nombre='Tech Supplies Shenzhen EU'), 50, (SELECT precioCompra FROM productos WHERE alias='Cable USB')),
+((SELECT id FROM productos WHERE alias='Cama de mascotas'), '2025-12-06', '2025-12-13', 1, (SELECT id FROM proveedores WHERE nombre='Mascotas Import Europe'), 15, (SELECT precioCompra FROM productos WHERE alias='Cama de mascotas')),
+((SELECT id FROM productos WHERE alias='Cargador'), '2025-12-08', '2025-12-15', 1, (SELECT id FROM proveedores WHERE nombre='Tech Supplies Shenzhen EU'), 50, (SELECT precioCompra FROM productos WHERE alias='Cargador')),
+((SELECT id FROM productos WHERE alias='Carpeta de color'), '2025-12-10', '2025-12-17', 1, (SELECT id FROM proveedores WHERE nombre='EuroAsia Distribuciones S.L'), 50, (SELECT precioCompra FROM productos WHERE alias='Carpeta de color')),
+((SELECT id FROM productos WHERE alias='Cepillo'), '2025-12-12', '2025-12-19', 1, (SELECT id FROM proveedores WHERE nombre='Belleza Económica Global'), 50, (SELECT precioCompra FROM productos WHERE alias='Cepillo')),
+((SELECT id FROM productos WHERE alias='Cinta de color'), '2025-12-14', '2025-12-21', 1, (SELECT id FROM proveedores WHERE nombre='Mercería Global Import S.L.'), 100, (SELECT precioCompra FROM productos WHERE alias='Cinta de color')),
+((SELECT id FROM productos WHERE alias='Cinta adhesiva'), '2025-12-16', '2025-12-23', 1, (SELECT id FROM proveedores WHERE nombre='FerreChina S.A.'), 100, (SELECT precioCompra FROM productos WHERE alias='Cinta adhesiva')),
+((SELECT id FROM productos WHERE alias='Cinta aislante negra'), '2025-12-18', '2025-12-25', 1, (SELECT id FROM proveedores WHERE nombre='FerreChina S.A.'), 50, (SELECT precioCompra FROM productos WHERE alias='Cinta aislante negra')),
+((SELECT id FROM productos WHERE alias='Clavos'), '2025-12-20', '2025-12-27', 1, (SELECT id FROM proveedores WHERE nombre='FerreChina S.A.'), 300, (SELECT precioCompra FROM productos WHERE alias='Clavos')),
+((SELECT id FROM productos WHERE alias='Coche'), '2025-12-22', '2025-12-29', 1, (SELECT id FROM proveedores WHERE nombre='Juegos & Peluches World S.L.'), 300, (SELECT precioCompra FROM productos WHERE alias='Coche')),
+((SELECT id FROM productos WHERE alias='Collar de mascota'), '2025-12-24', '2025-12-31', 1, (SELECT id FROM proveedores WHERE nombre='Mascotas Import Europe'), 30, (SELECT precioCompra FROM productos WHERE alias='Collar de mascota')),
+((SELECT id FROM productos WHERE alias='Cortauñas'), '2025-12-26', '2026-01-02', 1, (SELECT id FROM proveedores WHERE nombre='Belleza Económica Global'), 50, (SELECT precioCompra FROM productos WHERE alias='Cortauñas'));
 
 INSERT INTO clientes (ptoFidelidad, direccion, deuda, idUsuario) VALUES
 (0, 'Calle Falsa 1', 0.00, 3),
@@ -224,8 +249,8 @@ INSERT INTO facturas (subtotal, idEmpleado, fecha, iva, ptoGenerados, bPagado) V
 (180.25, 2, '2025-12-12', 12.00, 18, FALSE),
 (195.50, 1, '2025-12-13', 12.00, 19, TRUE),
 (205.75, 2, '2025-12-14', 12.00, 20, TRUE);
-TRUNCATE TABLE PedidoVenta;
-INSERT INTO PedidoVenta (fecha, bRecogido, fechaEntrega, direccion, idFactura, idCliente) VALUES
+
+INSERT INTO PedidosVenta (fecha, bRecoger, fecEntrega, direccion, idFactura, idCliente) VALUES
 ('2025-11-21', TRUE, '2025-11-23', 'Calle Falsa 1', 1, 1),
 ('2025-11-22', FALSE, '2025-11-24', 'Calle Falsa 2', 2, 2),
 ('2025-11-23', TRUE, '2025-11-25', 'Calle Falsa 3', 3, 3),
@@ -248,8 +273,8 @@ INSERT INTO PedidoVenta (fecha, bRecogido, fechaEntrega, direccion, idFactura, i
 ('2025-12-10', FALSE, '2025-12-12', 'Calle Falsa 20', 20, 20),
 ('2025-12-11', TRUE, '2025-12-13', 'Calle Falsa 21', 21, 21),
 ('2025-12-12', FALSE, '2025-12-14', 'Calle Falsa 22', 22, 22);
-truncate table ProductosFactura;
-INSERT INTO ProductosFactura (idPedido, precioFinal, descuentoPorcentaje, cantidad, idProducto) VALUES
+
+INSERT INTO ProductosPedido (idPedido, precioFinal, dctoPorcen, cantidad, idProducto) VALUES
 (1, 1.0, 0, 3, 1),
 (1, 0.5, 0, 5, 2),
 (1, 1.2, 0, 2, 3),
@@ -646,3 +671,13 @@ INSERT INTO ProductosFactura (idPedido, precioFinal, descuentoPorcentaje, cantid
 (22, 3.0, 0, 11, 17),
 (22, 2.0, 0, 1, 18),
 (22, 1.2, 0, 1, 19);
+
+SELECT * FROM Facturas;
+SELECT * FROM proveedores;
+SELECT * FROM empleados;
+SELECT * FROM productosPedido;
+SELECT * FROM pedidosProveedor;
+SELECT * FROM pedidosVenta;
+SELECT * FROM productos;
+SELECT * FROM clientes;
+SELECT * FROM usuarios;

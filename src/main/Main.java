@@ -1,8 +1,11 @@
-package accesoDatosJeep.main;
+package main;
 
-import accesoDatosJeep.model.*;
-import util.*;
-import java.util.*;
+import java.util.List;
+import java.util.Scanner;
+
+import model.PedidosVenta;
+import model.Producto;
+import util.XMLReader;
 
 public class Main {
 

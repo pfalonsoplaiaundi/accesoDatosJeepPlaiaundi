@@ -1,17 +1,17 @@
-package accesoDatosJeep.model;
+package model;
 
-public class PedidosVenta {
+import dominio.EModel;
+
+public class ProductosPedido implements EModel {
 
 	private int id;
-	private int idPedido;
 	private double precioFinal;
 	private double dctoPorcen;
 	private int cantidad;
 	private Producto producto;
-	public PedidosVenta(int id, int idPedido, double precioFinal, double dctoPorcen, int cantidad, Producto producto) {
+	public ProductosPedido(int id, double precioFinal, double dctoPorcen, int cantidad, Producto producto) {
 		super();
 		this.id = id;
-		this.idPedido = idPedido;
 		this.precioFinal = precioFinal;
 		this.dctoPorcen = dctoPorcen;
 		this.cantidad = cantidad;
@@ -22,12 +22,6 @@ public class PedidosVenta {
 	}
 	public void setId(int id) {
 		this.id = id;
-	}
-	public int getIdPedido() {
-		return idPedido;
-	}
-	public void setIdPedido(int idPedido) {
-		this.idPedido = idPedido;
 	}
 	public double getPrecioFinal() {
 		return precioFinal;
@@ -52,5 +46,5 @@ public class PedidosVenta {
 	}
 	public void setProducto(Producto producto) {
 		this.producto = producto;
-	}	
+	}
 }

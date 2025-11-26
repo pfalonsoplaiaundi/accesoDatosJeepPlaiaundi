@@ -1,6 +1,8 @@
-package accesoDatosJeep.model;
+package model;
 
-public class Producto {
+import dominio.EModel;
+
+public class Producto implements EModel {
 
 	public enum Categoria{
 		juguetes,

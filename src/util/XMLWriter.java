@@ -10,8 +10,8 @@ import javax.xml.transform.stream.StreamResult;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
-import accesoDatosJeep.model.PedidosVenta;
-import accesoDatosJeep.model.Producto;
+import model.PedidosVenta;
+import model.Producto;
 
 import java.util.List;
 /**

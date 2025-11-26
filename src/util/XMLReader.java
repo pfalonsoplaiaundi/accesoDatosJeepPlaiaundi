@@ -3,8 +3,8 @@ package util;
 import org.xml.sax.*;
 import org.xml.sax.helpers.DefaultHandler;
 
-import accesoDatosJeep.model.PedidosVenta;
-import accesoDatosJeep.model.Producto;
+import model.PedidosVenta;
+import model.Producto;
 
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
