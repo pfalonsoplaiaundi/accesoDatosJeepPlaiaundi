@@ -17,8 +17,8 @@ public class DBUtils {
 	public static final String DRIVER = "com.mysql.cj.jdbc.Driver";
 	
 	// Nombre y Pass de acceso a la Base de Datos
-	public static final String USER = "JeeP";
-	public static final String PASS = "jip";
+	public static final String USER = "root";
+	public static final String PASS = "2dam3";
 		
 }
 	

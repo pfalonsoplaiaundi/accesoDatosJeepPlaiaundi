@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <pedidosVenta>
-    <pedidoVenta>
-        <id>1</id>
-        <idPedido>1001</idPedido>
-        <precioFinal>135.0</precioFinal>
-        <dctoPorcen>10.0</dctoPorcen>
-        <cantidad>3</cantidad>
-        <producto>
-            <id>1</id>
-            <alias>Taladro</alias>
-            <categoria>herramientas</categoria>
-        </producto>
-    </pedidoVenta>
-    <pedidoVenta>
-        <id>2</id>
-        <idPedido>1002</idPedido>
-        <precioFinal>30000.0</precioFinal>
-        <dctoPorcen>5.0</dctoPorcen>
-        <cantidad>2</cantidad>
-        <producto>
-            <id>2</id>
-            <alias>Excavadora</alias>
-            <categoria>maquinaria</categoria>
-        </producto>
-    </pedidoVenta>
-    <pedidoVenta>
-        <id>3</id>
-        <idPedido>1003</idPedido>
-        <precioFinal>45.0</precioFinal>
-        <dctoPorcen>0.0</dctoPorcen>
-        <cantidad>3</cantidad>
-        <producto>
-            <id>3</id>
-            <alias>Osito</alias>
-            <categoria>juguetes</categoria>
-        </producto>
-    </pedidoVenta>
+    <pedidoVenta id="1">
+    	<fecha>2025-11-27</fecha>
+    	<bRecoger>false</bRecoger>
+    	<fecEntrega>2025-11-29</fecEntrega>
+    	<direccion>Calle test, 1 5A</direccion>
+    	<idFactura>1000</idFactura>
+    	<idCliente>1000</idCliente>
+        <productosPedidos>
+        	<productosPedidos id="1001">
+        		<precioFinal>10.5</precioFinal>
+        		<dctoPorcen>10</dctoPorcen>
+        		<cantidad>5</cantidad>
+        		<producto id="1" categoria="herramientas">
+        			<alias>Martillo</alias>
+        			<descripcion>Sirve para clavar clavos</descripcion>
+        			<precioVenta>1.5</precioVenta>
+        			<precioCompra>0.75</precioCompra>
+        			<stock>110</stock>
+        			<tipoIva>21</tipoIva>
+        		</producto>
+        	</productosPedidos>
+        	<productosPedidos id="1002">
+        	    <precioFinal>1.5</precioFinal>
+        		<dctoPorcen>0</dctoPorcen>
+        		<cantidad>1</cantidad>
+        		<producto id="2" categoria="herramientas">
+        		    <alias>Regadera</alias>
+        			<descripcion>Riega las plantas</descripcion>
+        			<precioVenta>1.5</precioVenta>
+        			<precioCompra>0.75</precioCompra>
+        			<stock>110</stock>
+        			<tipoIva>21</tipoIva>
+        		</producto>
+        	</productosPedidos>
+        </productosPedidos>
+	</pedidoVenta>
 </pedidosVenta>

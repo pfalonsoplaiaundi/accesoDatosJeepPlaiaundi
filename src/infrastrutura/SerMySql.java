@@ -4,6 +4,8 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
+import infrastrutura.interfaces.ISerBD;
+
 public class SerMySql implements ISerBD{
 
 	private final Connection conn;

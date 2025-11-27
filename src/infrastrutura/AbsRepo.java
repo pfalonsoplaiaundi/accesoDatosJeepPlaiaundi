@@ -12,6 +12,8 @@ import java.util.Map.Entry;
 
 import dominio.EFactory;
 import dominio.EModel;
+import infrastrutura.interfaces.IAbstracRepo;
+import infrastrutura.interfaces.ISerBD;
 import jakarta.persistence.Column;
 
 public abstract class AbsRepo<T extends EModel> implements IAbstracRepo<T> {

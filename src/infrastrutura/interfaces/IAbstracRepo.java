@@ -1,4 +1,4 @@
-package infrastrutura;
+package infrastrutura.interfaces;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
