@@ -15,10 +15,12 @@ public class ControlMenuPrincipal extends ControlMenu {
 		this.xml = xml;
 		this.bd = bd;
 		this.in = in;
+		
 		HashMap<Object, String> opciones = new HashMap<>();
 		opciones.put(1, "Mostrar datos");
 		opciones.put(2, "Hacer backup");
 		opciones.put(0, "Salir");
+		
 		this.setView(
 			new Menu(
 				"Menu principal",

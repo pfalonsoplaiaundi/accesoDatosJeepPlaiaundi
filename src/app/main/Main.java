@@ -15,11 +15,13 @@ import dominio.factorias.IFacProductosPedido;
 import infrastrutura.RepoPedidosVenta;
 import infrastrutura.RepoProducto;
 import infrastrutura.RepoProductosPedido;
+import infrastrutura.SerDom;
 import infrastrutura.SerMySql;
 import infrastrutura.interfaces.IRepoPedidosVenta;
 import infrastrutura.interfaces.IRepoProducto;
 import infrastrutura.interfaces.IRepoProductosPedido;
 import infrastrutura.interfaces.ISerBD;
+import infrastrutura.interfaces.ISerDom;
 import util.DBUtils;
 
 public class Main {
@@ -29,9 +31,6 @@ public class Main {
 		System.out.println("\n---- Bienvenido a JeeP! ----");
 		try {
 			// ---------- Carga de dependencias ---------
-			
-			// Servicio de DOM de creacion de XML
-			ISerXmlJeep serXML = new SerXmlJeep();
 			
 			// Servicio de conexion a la base de datos
 			ISerBD bd = new SerMySql(DBUtils.DRIVER, DBUtils.URL, DBUtils.USER, DBUtils.PASS);
@@ -54,6 +53,10 @@ public class Main {
 			// Servicio de bd de aplicacion
 			ISerBDJeep serBD = new SerBDJeep(rPedidosVenta, rProducto, rProductosPedido);
 			
+			// Servicio de DOM de creacion de XML
+			ISerDom dom = new SerDom();
+			ISerXmlJeep serXML = new SerXmlJeep(dom, serBD);
+			
 			// Inputs de consola
 			InputsApp input = InputsApp.getInstance();
 			
@@ -68,33 +71,5 @@ public class Main {
 		} 
 		
 	}
-
-	/*
-	public static void leerXML() {
-
-		// Se guardan dentro de la lista los pedidos leidos del XML
-		List<PedidosVenta> pedidosLeidos = XMLReader.leerXML("pedidos_venta.xml");
-
-		// Si hay pedidos dentro del XML, se ejecuta lo siguiente
-		if (pedidosLeidos != null && !pedidosLeidos.isEmpty()) {
-			System.out.println("📦 Pedidos leídos: " + pedidosLeidos.size());
-			System.out.println("-----------------------------------------");
-
-			for (PedidosVenta pedido : pedidosLeidos) {
-				System.out.println("🧾 Pedido ID: " + pedido.getId());
-				System.out.println("➡ ID Pedido: " + pedido.getIdPedido());
-				System.out.println("💰 Precio Final: " + pedido.getPrecioFinal());
-				System.out.println("🔢 Cantidad: " + pedido.getCantidad());
-				System.out.println("📉 Descuento: " + pedido.getDctoPorcen());
-				if (pedido.getProducto() != null) {
-					Producto p = pedido.getProducto();
-					System.out.println("🧱 Producto: " + p.getAlias() + " (" + p.getCategoria() + ")");
-					System.out.println("💲 Precio Venta: " + p.getPrecioVenta());
-				}
-				System.out.println("-----------------------------------------");
-			}
-		} else {
-			System.out.println("⚠ No se encontraron pedidos en el XML o hubo un error al leerlo.");
-		}
-	}*/
+	
 }

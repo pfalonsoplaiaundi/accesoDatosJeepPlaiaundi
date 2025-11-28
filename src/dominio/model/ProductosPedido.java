@@ -4,6 +4,13 @@ import dominio.EModel;
 
 public class ProductosPedido implements EModel {
 
+	@Override
+	public String toString() {
+		return "\n----- ProductosPedido -----\nid: " + id + "\nidPedido: " + idPedido + "\nprecioFinal: " + precioFinal
+				+ "\ndctoPorcen: " + dctoPorcen + "\ncantidad: " + cantidad + "\n"
+				+ (producto != null ? "producto: " + producto : "") + "\n--------------------------------\n";
+	}
+
 	private int id;
 	private int idPedido;
 	private double precioFinal;

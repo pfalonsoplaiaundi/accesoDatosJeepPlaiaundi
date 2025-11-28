@@ -1,5 +1,9 @@
 package app;
 
+import java.sql.SQLException;
+import java.util.ArrayList;
+
+import dominio.model.PedidosVenta;
 import infrastrutura.interfaces.IRepoPedidosVenta;
 import infrastrutura.interfaces.IRepoProducto;
 import infrastrutura.interfaces.IRepoProductosPedido;
@@ -18,8 +22,16 @@ public class SerBDJeep implements ISerBDJeep {
 	
 	
 	@Override
-	public void verDatosDeBackUp() {
-		// TODO
+	public void verDatosDeBackUp() throws Exception {
+		for(PedidosVenta pedido: getBackUp()) {
+			System.out.println(pedido);
+		}
+	}
+
+
+	@Override
+	public ArrayList<PedidosVenta> getBackUp() throws Exception {
+		return rPedidosVenta.getAll();
 	}
 
 }

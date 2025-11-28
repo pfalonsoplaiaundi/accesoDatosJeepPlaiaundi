@@ -76,6 +76,14 @@ public class PedidosVenta implements EModel {
 	public void setProductos(ArrayList<ProductosPedido> productos) {
 		this.productos = productos;
 	}
+	@Override
+	public String toString() {
+		return "\n----- PedidosVenta -----\nid: " + id + "\n" + (fecha != null ? "fecha: " + fecha + "\n" : "")
+				+ "bRecoger: " + bRecoger + "\n" + (fecEntrega != null ? "fecEntrega: " + fecEntrega + "\n" : "")
+				+ (direccion != null ? "direccion: " + direccion + "\n" : "") + "idFactura: " + idFactura
+				+ "\nidCliente: " + idCliente + "\n" + (productos != null ? "productos: " + productos : "")
+				+ "\n--------------------------------\n";
+	}
 	
 	
 }

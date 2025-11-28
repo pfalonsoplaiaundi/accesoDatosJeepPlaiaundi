@@ -8,7 +8,7 @@
     	<idFactura>1000</idFactura>
     	<idCliente>1000</idCliente>
         <productosPedidos>
-        	<productosPedidos id="1001">
+        	<productosPedido id="1001">
         		<precioFinal>10.5</precioFinal>
         		<dctoPorcen>10</dctoPorcen>
         		<cantidad>5</cantidad>
@@ -20,8 +20,8 @@
         			<stock>110</stock>
         			<tipoIva>21</tipoIva>
         		</producto>
-        	</productosPedidos>
-        	<productosPedidos id="1002">
+        	</productosPedido>
+        	<productosPedido id="1002">
         	    <precioFinal>1.5</precioFinal>
         		<dctoPorcen>0</dctoPorcen>
         		<cantidad>1</cantidad>
@@ -33,7 +33,7 @@
         			<stock>110</stock>
         			<tipoIva>21</tipoIva>
         		</producto>
-        	</productosPedidos>
+        	</productosPedido>
         </productosPedidos>
 	</pedidoVenta>
 </pedidosVenta>

@@ -157,6 +157,7 @@ public abstract class AbsRepo<T extends EModel> implements IAbstracRepo<T> {
 		return setParam(prepaStm, param).executeQuery();
 	}
 
+	
 	private PreparedStatement setParam(PreparedStatement prepaStm, Object ...param) throws SQLException {
 		for (int i = 0; i < param.length; i++) {
 			

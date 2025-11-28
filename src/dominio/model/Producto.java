@@ -79,5 +79,13 @@ public class Producto implements EModel {
 	}
 	public void setTipoIva(int tipoIva) {
 		this.tipoIva = tipoIva;
+	}
+	@Override
+	public String toString() {
+		return "\n----- Producto -----\nid: " + id + "\n" + (alias != null ? "alias: " + alias + "\n" : "")
+				+ (descripcion != null ? "descripcion: " + descripcion + "\n" : "") + "precioVenta: " + precioVenta
+				+ "\nprecioCompra: " + precioCompra + "\nstock: " + stock + "\n"
+				+ (categoria != null ? "categoria: " + categoria + "\n" : "") + "tipoIva: " + tipoIva
+				+ "\n--------------------------------\n";
 	}	
 }

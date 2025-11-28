@@ -20,3 +20,7 @@ public interface IAbstracRepo<T extends EModel> {
 	public ResultSet queryReturnParam(String query, Object ...param) throws SQLException;
 
 }
+
+
+
+
