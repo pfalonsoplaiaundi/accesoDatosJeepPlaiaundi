@@ -58,7 +58,12 @@ public class ControlMenuPrincipal extends ControlMenu {
 				"-".repeat(5) 
 		);
 		
-		this.bd.verDatosDeBackUp();
+		try {
+			this.bd.verDatosDeBackUp();
+		} catch (Exception e) {
+			e.printStackTrace();
+			System.out.println("Ha ocurrido un error, por favor contacte con el equipo tecnico");
+		}
 		
 		System.out.println(
 				"-".repeat(5) + 

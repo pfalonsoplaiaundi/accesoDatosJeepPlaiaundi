@@ -31,8 +31,12 @@ public abstract class AbsRepo<T extends EModel> implements IAbstracRepo<T> {
 	
 	@Override
 	public T get(int id) throws SQLException {
-		String query = "SELECT * FROM " + tabla + " WHERE id = ? ;";
-		return fac.crearDesdeBD(queryReturnParam(query, id));
+	    String query = "SELECT * FROM " + tabla + " WHERE id = ? ;";
+	    ResultSet rS = queryReturnParam(query, id);
+	    if (rS.next()) {
+	        return fac.crearDesdeBD(rS);
+	    }
+	    return null;
 	}
 
 	@Override

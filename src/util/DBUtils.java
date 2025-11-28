@@ -7,7 +7,7 @@ public class DBUtils {
 	// driver : bbd : // IP : Puerto / Schema
 	private static final String SERVER = "localhost";
 	private static final String PORT = "3306";
-	private static final String DATABASE = "JeeP";
+	private static final String DATABASE = "JeeP_demo";
 	
 	// public static final String URL = "jdbc:mysql://localhost:3306/empresadamtarde";
 	public static final String URL = "jdbc:mysql://" + SERVER + ":" + PORT +"/" + DATABASE;

@@ -1,0 +1,5371 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<pedidosVenta>
+  <pedidoVenta id="1">
+    <fecha>2025-11-21</fecha>
+    <bRecoger>true</bRecoger>
+    <fecEntrega>2025-11-23</fecEntrega>
+    <direccion>Calle Falsa 1</direccion>
+    <idFactura>1</idFactura>
+    <idCliente>1</idCliente>
+    <productosPedidos>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Agenda</alias>
+          <descripcion>Cuaderno de organización diaria para oficina</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.3</precioCompra>
+          <stock>30</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Aguja</alias>
+          <descripcion>Pack de agujas de acero para costura fina</descripcion>
+          <precioVenta>0.5</precioVenta>
+          <precioCompra>0.05</precioCompra>
+          <stock>200</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Archivadores de color</alias>
+          <descripcion>Archivador A4 con anillas y lomo ancho</descripcion>
+          <precioVenta>1.2</precioVenta>
+          <precioCompra>0.4</precioCompra>
+          <stock>0</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>4.0</precioFinal>
+        <dctoPorcen>4.0</dctoPorcen>
+        <cantidad>4.0</cantidad>
+        <producto>
+          <alias>Auriculares</alias>
+          <descripcion>Auriculares estéreo básicos con conexión jack 3.5mm</descripcion>
+          <precioVenta>4.0</precioVenta>
+          <precioCompra>1.5</precioCompra>
+          <stock>15</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Boligrafo</alias>
+          <descripcion>Bolígrafo de tinta azul punta media</descripcion>
+          <precioVenta>0.7</precioVenta>
+          <precioCompra>0.1</precioCompra>
+          <stock>100</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Bolsas de heces</alias>
+          <descripcion>Rollo de bolsas higiénicas biodegradables</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.2</precioCompra>
+          <stock>10</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>0.0</precioFinal>
+        <dctoPorcen>0.0</dctoPorcen>
+        <cantidad>0.0</cantidad>
+        <producto>
+          <alias>Boton</alias>
+          <descripcion>Botones de plástico redondos para recambio</descripcion>
+          <precioVenta>0.3</precioVenta>
+          <precioCompra>0.03</precioCompra>
+          <stock>400</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>3.0</precioFinal>
+        <dctoPorcen>3.0</dctoPorcen>
+        <cantidad>3.0</cantidad>
+        <producto>
+          <alias>Cable USB</alias>
+          <descripcion>Cable de carga y transferencia de datos estándar</descripcion>
+          <precioVenta>2.5</precioVenta>
+          <precioCompra>0.8</precioCompra>
+          <stock>20</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>6.0</precioFinal>
+        <dctoPorcen>6.0</dctoPorcen>
+        <cantidad>6.0</cantidad>
+        <producto>
+          <alias>Cama de mascotas</alias>
+          <descripcion>Cama acolchada suave para perros pequeños o gatos</descripcion>
+          <precioVenta>6.0</precioVenta>
+          <precioCompra>2.0</precioCompra>
+          <stock>14</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>4.0</precioFinal>
+        <dctoPorcen>4.0</dctoPorcen>
+        <cantidad>4.0</cantidad>
+        <producto>
+          <alias>Cargador</alias>
+          <descripcion>Adaptador de corriente USB de pared</descripcion>
+          <precioVenta>3.5</precioVenta>
+          <precioCompra>1.0</precioCompra>
+          <stock>35</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Carpeta de color</alias>
+          <descripcion>Carpeta clasificadora de cartulina resistente</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.35</precioCompra>
+          <stock>50</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cepillo</alias>
+          <descripcion>Cepillo de pelo ergonómico antienredos</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.25</precioCompra>
+          <stock>35</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cinta de color</alias>
+          <descripcion>Cinta decorativa de tela satinada</descripcion>
+          <precioVenta>0.6</precioVenta>
+          <precioCompra>0.1</precioCompra>
+          <stock>80</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cinta adhesiva</alias>
+          <descripcion>Rollo de celo transparente de alta adherencia</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.2</precioCompra>
+          <stock>73</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>0.0</precioFinal>
+        <dctoPorcen>0.0</dctoPorcen>
+        <cantidad>0.0</cantidad>
+        <producto>
+          <alias>Clavos</alias>
+          <descripcion>Caja de clavos de acero galvanizado surtidos</descripcion>
+          <precioVenta>0.4</precioVenta>
+          <precioCompra>0.05</precioCompra>
+          <stock>164</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>3.0</precioFinal>
+        <dctoPorcen>3.0</dctoPorcen>
+        <cantidad>3.0</cantidad>
+        <producto>
+          <alias>Coche</alias>
+          <descripcion>Coche de juguete metálico a escala</descripcion>
+          <precioVenta>3.0</precioVenta>
+          <precioCompra>0.7</precioCompra>
+          <stock>29</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>2.0</precioFinal>
+        <dctoPorcen>2.0</dctoPorcen>
+        <cantidad>2.0</cantidad>
+        <producto>
+          <alias>Collar de mascota</alias>
+          <descripcion>Collar ajustable de nylon con cierre de clip</descripcion>
+          <precioVenta>2.0</precioVenta>
+          <precioCompra>0.5</precioCompra>
+          <stock>13</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cortauñas</alias>
+          <descripcion>Cortauñas de acero inoxidable con lima</descripcion>
+          <precioVenta>1.2</precioVenta>
+          <precioCompra>0.3</precioCompra>
+          <stock>41</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+    </productosPedidos>
+  </pedidoVenta>
+  <pedidoVenta id="2">
+    <fecha>2025-11-22</fecha>
+    <bRecoger>false</bRecoger>
+    <fecEntrega>2025-11-24</fecEntrega>
+    <direccion>Calle Falsa 2</direccion>
+    <idFactura>2</idFactura>
+    <idCliente>2</idCliente>
+    <productosPedidos>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Agenda</alias>
+          <descripcion>Cuaderno de organización diaria para oficina</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.3</precioCompra>
+          <stock>30</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Aguja</alias>
+          <descripcion>Pack de agujas de acero para costura fina</descripcion>
+          <precioVenta>0.5</precioVenta>
+          <precioCompra>0.05</precioCompra>
+          <stock>200</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Archivadores de color</alias>
+          <descripcion>Archivador A4 con anillas y lomo ancho</descripcion>
+          <precioVenta>1.2</precioVenta>
+          <precioCompra>0.4</precioCompra>
+          <stock>0</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>4.0</precioFinal>
+        <dctoPorcen>4.0</dctoPorcen>
+        <cantidad>4.0</cantidad>
+        <producto>
+          <alias>Auriculares</alias>
+          <descripcion>Auriculares estéreo básicos con conexión jack 3.5mm</descripcion>
+          <precioVenta>4.0</precioVenta>
+          <precioCompra>1.5</precioCompra>
+          <stock>15</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Boligrafo</alias>
+          <descripcion>Bolígrafo de tinta azul punta media</descripcion>
+          <precioVenta>0.7</precioVenta>
+          <precioCompra>0.1</precioCompra>
+          <stock>100</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Bolsas de heces</alias>
+          <descripcion>Rollo de bolsas higiénicas biodegradables</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.2</precioCompra>
+          <stock>10</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>0.0</precioFinal>
+        <dctoPorcen>0.0</dctoPorcen>
+        <cantidad>0.0</cantidad>
+        <producto>
+          <alias>Boton</alias>
+          <descripcion>Botones de plástico redondos para recambio</descripcion>
+          <precioVenta>0.3</precioVenta>
+          <precioCompra>0.03</precioCompra>
+          <stock>400</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>3.0</precioFinal>
+        <dctoPorcen>3.0</dctoPorcen>
+        <cantidad>3.0</cantidad>
+        <producto>
+          <alias>Cable USB</alias>
+          <descripcion>Cable de carga y transferencia de datos estándar</descripcion>
+          <precioVenta>2.5</precioVenta>
+          <precioCompra>0.8</precioCompra>
+          <stock>20</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>6.0</precioFinal>
+        <dctoPorcen>6.0</dctoPorcen>
+        <cantidad>6.0</cantidad>
+        <producto>
+          <alias>Cama de mascotas</alias>
+          <descripcion>Cama acolchada suave para perros pequeños o gatos</descripcion>
+          <precioVenta>6.0</precioVenta>
+          <precioCompra>2.0</precioCompra>
+          <stock>14</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>4.0</precioFinal>
+        <dctoPorcen>4.0</dctoPorcen>
+        <cantidad>4.0</cantidad>
+        <producto>
+          <alias>Cargador</alias>
+          <descripcion>Adaptador de corriente USB de pared</descripcion>
+          <precioVenta>3.5</precioVenta>
+          <precioCompra>1.0</precioCompra>
+          <stock>35</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Carpeta de color</alias>
+          <descripcion>Carpeta clasificadora de cartulina resistente</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.35</precioCompra>
+          <stock>50</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cepillo</alias>
+          <descripcion>Cepillo de pelo ergonómico antienredos</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.25</precioCompra>
+          <stock>35</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cinta de color</alias>
+          <descripcion>Cinta decorativa de tela satinada</descripcion>
+          <precioVenta>0.6</precioVenta>
+          <precioCompra>0.1</precioCompra>
+          <stock>80</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cinta adhesiva</alias>
+          <descripcion>Rollo de celo transparente de alta adherencia</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.2</precioCompra>
+          <stock>73</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>0.0</precioFinal>
+        <dctoPorcen>0.0</dctoPorcen>
+        <cantidad>0.0</cantidad>
+        <producto>
+          <alias>Clavos</alias>
+          <descripcion>Caja de clavos de acero galvanizado surtidos</descripcion>
+          <precioVenta>0.4</precioVenta>
+          <precioCompra>0.05</precioCompra>
+          <stock>164</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>3.0</precioFinal>
+        <dctoPorcen>3.0</dctoPorcen>
+        <cantidad>3.0</cantidad>
+        <producto>
+          <alias>Coche</alias>
+          <descripcion>Coche de juguete metálico a escala</descripcion>
+          <precioVenta>3.0</precioVenta>
+          <precioCompra>0.7</precioCompra>
+          <stock>29</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>2.0</precioFinal>
+        <dctoPorcen>2.0</dctoPorcen>
+        <cantidad>2.0</cantidad>
+        <producto>
+          <alias>Collar de mascota</alias>
+          <descripcion>Collar ajustable de nylon con cierre de clip</descripcion>
+          <precioVenta>2.0</precioVenta>
+          <precioCompra>0.5</precioCompra>
+          <stock>13</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cortauñas</alias>
+          <descripcion>Cortauñas de acero inoxidable con lima</descripcion>
+          <precioVenta>1.2</precioVenta>
+          <precioCompra>0.3</precioCompra>
+          <stock>41</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+    </productosPedidos>
+  </pedidoVenta>
+  <pedidoVenta id="3">
+    <fecha>2025-11-23</fecha>
+    <bRecoger>true</bRecoger>
+    <fecEntrega>2025-11-25</fecEntrega>
+    <direccion>Calle Falsa 3</direccion>
+    <idFactura>3</idFactura>
+    <idCliente>3</idCliente>
+    <productosPedidos>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Agenda</alias>
+          <descripcion>Cuaderno de organización diaria para oficina</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.3</precioCompra>
+          <stock>30</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Aguja</alias>
+          <descripcion>Pack de agujas de acero para costura fina</descripcion>
+          <precioVenta>0.5</precioVenta>
+          <precioCompra>0.05</precioCompra>
+          <stock>200</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Archivadores de color</alias>
+          <descripcion>Archivador A4 con anillas y lomo ancho</descripcion>
+          <precioVenta>1.2</precioVenta>
+          <precioCompra>0.4</precioCompra>
+          <stock>0</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>4.0</precioFinal>
+        <dctoPorcen>4.0</dctoPorcen>
+        <cantidad>4.0</cantidad>
+        <producto>
+          <alias>Auriculares</alias>
+          <descripcion>Auriculares estéreo básicos con conexión jack 3.5mm</descripcion>
+          <precioVenta>4.0</precioVenta>
+          <precioCompra>1.5</precioCompra>
+          <stock>15</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Boligrafo</alias>
+          <descripcion>Bolígrafo de tinta azul punta media</descripcion>
+          <precioVenta>0.7</precioVenta>
+          <precioCompra>0.1</precioCompra>
+          <stock>100</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Bolsas de heces</alias>
+          <descripcion>Rollo de bolsas higiénicas biodegradables</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.2</precioCompra>
+          <stock>10</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>0.0</precioFinal>
+        <dctoPorcen>0.0</dctoPorcen>
+        <cantidad>0.0</cantidad>
+        <producto>
+          <alias>Boton</alias>
+          <descripcion>Botones de plástico redondos para recambio</descripcion>
+          <precioVenta>0.3</precioVenta>
+          <precioCompra>0.03</precioCompra>
+          <stock>400</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>3.0</precioFinal>
+        <dctoPorcen>3.0</dctoPorcen>
+        <cantidad>3.0</cantidad>
+        <producto>
+          <alias>Cable USB</alias>
+          <descripcion>Cable de carga y transferencia de datos estándar</descripcion>
+          <precioVenta>2.5</precioVenta>
+          <precioCompra>0.8</precioCompra>
+          <stock>20</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>6.0</precioFinal>
+        <dctoPorcen>6.0</dctoPorcen>
+        <cantidad>6.0</cantidad>
+        <producto>
+          <alias>Cama de mascotas</alias>
+          <descripcion>Cama acolchada suave para perros pequeños o gatos</descripcion>
+          <precioVenta>6.0</precioVenta>
+          <precioCompra>2.0</precioCompra>
+          <stock>14</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>4.0</precioFinal>
+        <dctoPorcen>4.0</dctoPorcen>
+        <cantidad>4.0</cantidad>
+        <producto>
+          <alias>Cargador</alias>
+          <descripcion>Adaptador de corriente USB de pared</descripcion>
+          <precioVenta>3.5</precioVenta>
+          <precioCompra>1.0</precioCompra>
+          <stock>35</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Carpeta de color</alias>
+          <descripcion>Carpeta clasificadora de cartulina resistente</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.35</precioCompra>
+          <stock>50</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cepillo</alias>
+          <descripcion>Cepillo de pelo ergonómico antienredos</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.25</precioCompra>
+          <stock>35</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cinta de color</alias>
+          <descripcion>Cinta decorativa de tela satinada</descripcion>
+          <precioVenta>0.6</precioVenta>
+          <precioCompra>0.1</precioCompra>
+          <stock>80</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cinta adhesiva</alias>
+          <descripcion>Rollo de celo transparente de alta adherencia</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.2</precioCompra>
+          <stock>73</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>0.0</precioFinal>
+        <dctoPorcen>0.0</dctoPorcen>
+        <cantidad>0.0</cantidad>
+        <producto>
+          <alias>Clavos</alias>
+          <descripcion>Caja de clavos de acero galvanizado surtidos</descripcion>
+          <precioVenta>0.4</precioVenta>
+          <precioCompra>0.05</precioCompra>
+          <stock>164</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>3.0</precioFinal>
+        <dctoPorcen>3.0</dctoPorcen>
+        <cantidad>3.0</cantidad>
+        <producto>
+          <alias>Coche</alias>
+          <descripcion>Coche de juguete metálico a escala</descripcion>
+          <precioVenta>3.0</precioVenta>
+          <precioCompra>0.7</precioCompra>
+          <stock>29</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>2.0</precioFinal>
+        <dctoPorcen>2.0</dctoPorcen>
+        <cantidad>2.0</cantidad>
+        <producto>
+          <alias>Collar de mascota</alias>
+          <descripcion>Collar ajustable de nylon con cierre de clip</descripcion>
+          <precioVenta>2.0</precioVenta>
+          <precioCompra>0.5</precioCompra>
+          <stock>13</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cortauñas</alias>
+          <descripcion>Cortauñas de acero inoxidable con lima</descripcion>
+          <precioVenta>1.2</precioVenta>
+          <precioCompra>0.3</precioCompra>
+          <stock>41</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+    </productosPedidos>
+  </pedidoVenta>
+  <pedidoVenta id="4">
+    <fecha>2025-11-24</fecha>
+    <bRecoger>true</bRecoger>
+    <fecEntrega>2025-11-26</fecEntrega>
+    <direccion>Calle Falsa 4</direccion>
+    <idFactura>4</idFactura>
+    <idCliente>4</idCliente>
+    <productosPedidos>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Agenda</alias>
+          <descripcion>Cuaderno de organización diaria para oficina</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.3</precioCompra>
+          <stock>30</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Aguja</alias>
+          <descripcion>Pack de agujas de acero para costura fina</descripcion>
+          <precioVenta>0.5</precioVenta>
+          <precioCompra>0.05</precioCompra>
+          <stock>200</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Archivadores de color</alias>
+          <descripcion>Archivador A4 con anillas y lomo ancho</descripcion>
+          <precioVenta>1.2</precioVenta>
+          <precioCompra>0.4</precioCompra>
+          <stock>0</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>4.0</precioFinal>
+        <dctoPorcen>4.0</dctoPorcen>
+        <cantidad>4.0</cantidad>
+        <producto>
+          <alias>Auriculares</alias>
+          <descripcion>Auriculares estéreo básicos con conexión jack 3.5mm</descripcion>
+          <precioVenta>4.0</precioVenta>
+          <precioCompra>1.5</precioCompra>
+          <stock>15</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Boligrafo</alias>
+          <descripcion>Bolígrafo de tinta azul punta media</descripcion>
+          <precioVenta>0.7</precioVenta>
+          <precioCompra>0.1</precioCompra>
+          <stock>100</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Bolsas de heces</alias>
+          <descripcion>Rollo de bolsas higiénicas biodegradables</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.2</precioCompra>
+          <stock>10</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>0.0</precioFinal>
+        <dctoPorcen>0.0</dctoPorcen>
+        <cantidad>0.0</cantidad>
+        <producto>
+          <alias>Boton</alias>
+          <descripcion>Botones de plástico redondos para recambio</descripcion>
+          <precioVenta>0.3</precioVenta>
+          <precioCompra>0.03</precioCompra>
+          <stock>400</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>3.0</precioFinal>
+        <dctoPorcen>3.0</dctoPorcen>
+        <cantidad>3.0</cantidad>
+        <producto>
+          <alias>Cable USB</alias>
+          <descripcion>Cable de carga y transferencia de datos estándar</descripcion>
+          <precioVenta>2.5</precioVenta>
+          <precioCompra>0.8</precioCompra>
+          <stock>20</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>6.0</precioFinal>
+        <dctoPorcen>6.0</dctoPorcen>
+        <cantidad>6.0</cantidad>
+        <producto>
+          <alias>Cama de mascotas</alias>
+          <descripcion>Cama acolchada suave para perros pequeños o gatos</descripcion>
+          <precioVenta>6.0</precioVenta>
+          <precioCompra>2.0</precioCompra>
+          <stock>14</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>4.0</precioFinal>
+        <dctoPorcen>4.0</dctoPorcen>
+        <cantidad>4.0</cantidad>
+        <producto>
+          <alias>Cargador</alias>
+          <descripcion>Adaptador de corriente USB de pared</descripcion>
+          <precioVenta>3.5</precioVenta>
+          <precioCompra>1.0</precioCompra>
+          <stock>35</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Carpeta de color</alias>
+          <descripcion>Carpeta clasificadora de cartulina resistente</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.35</precioCompra>
+          <stock>50</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cepillo</alias>
+          <descripcion>Cepillo de pelo ergonómico antienredos</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.25</precioCompra>
+          <stock>35</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cinta de color</alias>
+          <descripcion>Cinta decorativa de tela satinada</descripcion>
+          <precioVenta>0.6</precioVenta>
+          <precioCompra>0.1</precioCompra>
+          <stock>80</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cinta adhesiva</alias>
+          <descripcion>Rollo de celo transparente de alta adherencia</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.2</precioCompra>
+          <stock>73</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>0.0</precioFinal>
+        <dctoPorcen>0.0</dctoPorcen>
+        <cantidad>0.0</cantidad>
+        <producto>
+          <alias>Clavos</alias>
+          <descripcion>Caja de clavos de acero galvanizado surtidos</descripcion>
+          <precioVenta>0.4</precioVenta>
+          <precioCompra>0.05</precioCompra>
+          <stock>164</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>3.0</precioFinal>
+        <dctoPorcen>3.0</dctoPorcen>
+        <cantidad>3.0</cantidad>
+        <producto>
+          <alias>Coche</alias>
+          <descripcion>Coche de juguete metálico a escala</descripcion>
+          <precioVenta>3.0</precioVenta>
+          <precioCompra>0.7</precioCompra>
+          <stock>29</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>2.0</precioFinal>
+        <dctoPorcen>2.0</dctoPorcen>
+        <cantidad>2.0</cantidad>
+        <producto>
+          <alias>Collar de mascota</alias>
+          <descripcion>Collar ajustable de nylon con cierre de clip</descripcion>
+          <precioVenta>2.0</precioVenta>
+          <precioCompra>0.5</precioCompra>
+          <stock>13</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cortauñas</alias>
+          <descripcion>Cortauñas de acero inoxidable con lima</descripcion>
+          <precioVenta>1.2</precioVenta>
+          <precioCompra>0.3</precioCompra>
+          <stock>41</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+    </productosPedidos>
+  </pedidoVenta>
+  <pedidoVenta id="5">
+    <fecha>2025-11-25</fecha>
+    <bRecoger>false</bRecoger>
+    <fecEntrega>2025-11-27</fecEntrega>
+    <direccion>Calle Falsa 5</direccion>
+    <idFactura>5</idFactura>
+    <idCliente>5</idCliente>
+    <productosPedidos>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Agenda</alias>
+          <descripcion>Cuaderno de organización diaria para oficina</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.3</precioCompra>
+          <stock>30</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Aguja</alias>
+          <descripcion>Pack de agujas de acero para costura fina</descripcion>
+          <precioVenta>0.5</precioVenta>
+          <precioCompra>0.05</precioCompra>
+          <stock>200</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Archivadores de color</alias>
+          <descripcion>Archivador A4 con anillas y lomo ancho</descripcion>
+          <precioVenta>1.2</precioVenta>
+          <precioCompra>0.4</precioCompra>
+          <stock>0</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>4.0</precioFinal>
+        <dctoPorcen>4.0</dctoPorcen>
+        <cantidad>4.0</cantidad>
+        <producto>
+          <alias>Auriculares</alias>
+          <descripcion>Auriculares estéreo básicos con conexión jack 3.5mm</descripcion>
+          <precioVenta>4.0</precioVenta>
+          <precioCompra>1.5</precioCompra>
+          <stock>15</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Boligrafo</alias>
+          <descripcion>Bolígrafo de tinta azul punta media</descripcion>
+          <precioVenta>0.7</precioVenta>
+          <precioCompra>0.1</precioCompra>
+          <stock>100</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Bolsas de heces</alias>
+          <descripcion>Rollo de bolsas higiénicas biodegradables</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.2</precioCompra>
+          <stock>10</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>0.0</precioFinal>
+        <dctoPorcen>0.0</dctoPorcen>
+        <cantidad>0.0</cantidad>
+        <producto>
+          <alias>Boton</alias>
+          <descripcion>Botones de plástico redondos para recambio</descripcion>
+          <precioVenta>0.3</precioVenta>
+          <precioCompra>0.03</precioCompra>
+          <stock>400</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>3.0</precioFinal>
+        <dctoPorcen>3.0</dctoPorcen>
+        <cantidad>3.0</cantidad>
+        <producto>
+          <alias>Cable USB</alias>
+          <descripcion>Cable de carga y transferencia de datos estándar</descripcion>
+          <precioVenta>2.5</precioVenta>
+          <precioCompra>0.8</precioCompra>
+          <stock>20</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>6.0</precioFinal>
+        <dctoPorcen>6.0</dctoPorcen>
+        <cantidad>6.0</cantidad>
+        <producto>
+          <alias>Cama de mascotas</alias>
+          <descripcion>Cama acolchada suave para perros pequeños o gatos</descripcion>
+          <precioVenta>6.0</precioVenta>
+          <precioCompra>2.0</precioCompra>
+          <stock>14</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>4.0</precioFinal>
+        <dctoPorcen>4.0</dctoPorcen>
+        <cantidad>4.0</cantidad>
+        <producto>
+          <alias>Cargador</alias>
+          <descripcion>Adaptador de corriente USB de pared</descripcion>
+          <precioVenta>3.5</precioVenta>
+          <precioCompra>1.0</precioCompra>
+          <stock>35</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Carpeta de color</alias>
+          <descripcion>Carpeta clasificadora de cartulina resistente</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.35</precioCompra>
+          <stock>50</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cepillo</alias>
+          <descripcion>Cepillo de pelo ergonómico antienredos</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.25</precioCompra>
+          <stock>35</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cinta de color</alias>
+          <descripcion>Cinta decorativa de tela satinada</descripcion>
+          <precioVenta>0.6</precioVenta>
+          <precioCompra>0.1</precioCompra>
+          <stock>80</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cinta adhesiva</alias>
+          <descripcion>Rollo de celo transparente de alta adherencia</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.2</precioCompra>
+          <stock>73</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>0.0</precioFinal>
+        <dctoPorcen>0.0</dctoPorcen>
+        <cantidad>0.0</cantidad>
+        <producto>
+          <alias>Clavos</alias>
+          <descripcion>Caja de clavos de acero galvanizado surtidos</descripcion>
+          <precioVenta>0.4</precioVenta>
+          <precioCompra>0.05</precioCompra>
+          <stock>164</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>3.0</precioFinal>
+        <dctoPorcen>3.0</dctoPorcen>
+        <cantidad>3.0</cantidad>
+        <producto>
+          <alias>Coche</alias>
+          <descripcion>Coche de juguete metálico a escala</descripcion>
+          <precioVenta>3.0</precioVenta>
+          <precioCompra>0.7</precioCompra>
+          <stock>29</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>2.0</precioFinal>
+        <dctoPorcen>2.0</dctoPorcen>
+        <cantidad>2.0</cantidad>
+        <producto>
+          <alias>Collar de mascota</alias>
+          <descripcion>Collar ajustable de nylon con cierre de clip</descripcion>
+          <precioVenta>2.0</precioVenta>
+          <precioCompra>0.5</precioCompra>
+          <stock>13</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cortauñas</alias>
+          <descripcion>Cortauñas de acero inoxidable con lima</descripcion>
+          <precioVenta>1.2</precioVenta>
+          <precioCompra>0.3</precioCompra>
+          <stock>41</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+    </productosPedidos>
+  </pedidoVenta>
+  <pedidoVenta id="6">
+    <fecha>2025-11-26</fecha>
+    <bRecoger>true</bRecoger>
+    <fecEntrega>2025-11-28</fecEntrega>
+    <direccion>Calle Falsa 6</direccion>
+    <idFactura>6</idFactura>
+    <idCliente>6</idCliente>
+    <productosPedidos>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Agenda</alias>
+          <descripcion>Cuaderno de organización diaria para oficina</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.3</precioCompra>
+          <stock>30</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Aguja</alias>
+          <descripcion>Pack de agujas de acero para costura fina</descripcion>
+          <precioVenta>0.5</precioVenta>
+          <precioCompra>0.05</precioCompra>
+          <stock>200</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Archivadores de color</alias>
+          <descripcion>Archivador A4 con anillas y lomo ancho</descripcion>
+          <precioVenta>1.2</precioVenta>
+          <precioCompra>0.4</precioCompra>
+          <stock>0</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>4.0</precioFinal>
+        <dctoPorcen>4.0</dctoPorcen>
+        <cantidad>4.0</cantidad>
+        <producto>
+          <alias>Auriculares</alias>
+          <descripcion>Auriculares estéreo básicos con conexión jack 3.5mm</descripcion>
+          <precioVenta>4.0</precioVenta>
+          <precioCompra>1.5</precioCompra>
+          <stock>15</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Boligrafo</alias>
+          <descripcion>Bolígrafo de tinta azul punta media</descripcion>
+          <precioVenta>0.7</precioVenta>
+          <precioCompra>0.1</precioCompra>
+          <stock>100</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Bolsas de heces</alias>
+          <descripcion>Rollo de bolsas higiénicas biodegradables</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.2</precioCompra>
+          <stock>10</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>0.0</precioFinal>
+        <dctoPorcen>0.0</dctoPorcen>
+        <cantidad>0.0</cantidad>
+        <producto>
+          <alias>Boton</alias>
+          <descripcion>Botones de plástico redondos para recambio</descripcion>
+          <precioVenta>0.3</precioVenta>
+          <precioCompra>0.03</precioCompra>
+          <stock>400</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>3.0</precioFinal>
+        <dctoPorcen>3.0</dctoPorcen>
+        <cantidad>3.0</cantidad>
+        <producto>
+          <alias>Cable USB</alias>
+          <descripcion>Cable de carga y transferencia de datos estándar</descripcion>
+          <precioVenta>2.5</precioVenta>
+          <precioCompra>0.8</precioCompra>
+          <stock>20</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>6.0</precioFinal>
+        <dctoPorcen>6.0</dctoPorcen>
+        <cantidad>6.0</cantidad>
+        <producto>
+          <alias>Cama de mascotas</alias>
+          <descripcion>Cama acolchada suave para perros pequeños o gatos</descripcion>
+          <precioVenta>6.0</precioVenta>
+          <precioCompra>2.0</precioCompra>
+          <stock>14</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>4.0</precioFinal>
+        <dctoPorcen>4.0</dctoPorcen>
+        <cantidad>4.0</cantidad>
+        <producto>
+          <alias>Cargador</alias>
+          <descripcion>Adaptador de corriente USB de pared</descripcion>
+          <precioVenta>3.5</precioVenta>
+          <precioCompra>1.0</precioCompra>
+          <stock>35</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Carpeta de color</alias>
+          <descripcion>Carpeta clasificadora de cartulina resistente</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.35</precioCompra>
+          <stock>50</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cepillo</alias>
+          <descripcion>Cepillo de pelo ergonómico antienredos</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.25</precioCompra>
+          <stock>35</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cinta de color</alias>
+          <descripcion>Cinta decorativa de tela satinada</descripcion>
+          <precioVenta>0.6</precioVenta>
+          <precioCompra>0.1</precioCompra>
+          <stock>80</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cinta adhesiva</alias>
+          <descripcion>Rollo de celo transparente de alta adherencia</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.2</precioCompra>
+          <stock>73</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>0.0</precioFinal>
+        <dctoPorcen>0.0</dctoPorcen>
+        <cantidad>0.0</cantidad>
+        <producto>
+          <alias>Clavos</alias>
+          <descripcion>Caja de clavos de acero galvanizado surtidos</descripcion>
+          <precioVenta>0.4</precioVenta>
+          <precioCompra>0.05</precioCompra>
+          <stock>164</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>3.0</precioFinal>
+        <dctoPorcen>3.0</dctoPorcen>
+        <cantidad>3.0</cantidad>
+        <producto>
+          <alias>Coche</alias>
+          <descripcion>Coche de juguete metálico a escala</descripcion>
+          <precioVenta>3.0</precioVenta>
+          <precioCompra>0.7</precioCompra>
+          <stock>29</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>2.0</precioFinal>
+        <dctoPorcen>2.0</dctoPorcen>
+        <cantidad>2.0</cantidad>
+        <producto>
+          <alias>Collar de mascota</alias>
+          <descripcion>Collar ajustable de nylon con cierre de clip</descripcion>
+          <precioVenta>2.0</precioVenta>
+          <precioCompra>0.5</precioCompra>
+          <stock>13</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cortauñas</alias>
+          <descripcion>Cortauñas de acero inoxidable con lima</descripcion>
+          <precioVenta>1.2</precioVenta>
+          <precioCompra>0.3</precioCompra>
+          <stock>41</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+    </productosPedidos>
+  </pedidoVenta>
+  <pedidoVenta id="7">
+    <fecha>2025-11-27</fecha>
+    <bRecoger>false</bRecoger>
+    <fecEntrega>2025-11-29</fecEntrega>
+    <direccion>Calle Falsa 7</direccion>
+    <idFactura>7</idFactura>
+    <idCliente>7</idCliente>
+    <productosPedidos>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Agenda</alias>
+          <descripcion>Cuaderno de organización diaria para oficina</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.3</precioCompra>
+          <stock>30</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Aguja</alias>
+          <descripcion>Pack de agujas de acero para costura fina</descripcion>
+          <precioVenta>0.5</precioVenta>
+          <precioCompra>0.05</precioCompra>
+          <stock>200</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Archivadores de color</alias>
+          <descripcion>Archivador A4 con anillas y lomo ancho</descripcion>
+          <precioVenta>1.2</precioVenta>
+          <precioCompra>0.4</precioCompra>
+          <stock>0</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>4.0</precioFinal>
+        <dctoPorcen>4.0</dctoPorcen>
+        <cantidad>4.0</cantidad>
+        <producto>
+          <alias>Auriculares</alias>
+          <descripcion>Auriculares estéreo básicos con conexión jack 3.5mm</descripcion>
+          <precioVenta>4.0</precioVenta>
+          <precioCompra>1.5</precioCompra>
+          <stock>15</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Boligrafo</alias>
+          <descripcion>Bolígrafo de tinta azul punta media</descripcion>
+          <precioVenta>0.7</precioVenta>
+          <precioCompra>0.1</precioCompra>
+          <stock>100</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Bolsas de heces</alias>
+          <descripcion>Rollo de bolsas higiénicas biodegradables</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.2</precioCompra>
+          <stock>10</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>0.0</precioFinal>
+        <dctoPorcen>0.0</dctoPorcen>
+        <cantidad>0.0</cantidad>
+        <producto>
+          <alias>Boton</alias>
+          <descripcion>Botones de plástico redondos para recambio</descripcion>
+          <precioVenta>0.3</precioVenta>
+          <precioCompra>0.03</precioCompra>
+          <stock>400</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>3.0</precioFinal>
+        <dctoPorcen>3.0</dctoPorcen>
+        <cantidad>3.0</cantidad>
+        <producto>
+          <alias>Cable USB</alias>
+          <descripcion>Cable de carga y transferencia de datos estándar</descripcion>
+          <precioVenta>2.5</precioVenta>
+          <precioCompra>0.8</precioCompra>
+          <stock>20</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>6.0</precioFinal>
+        <dctoPorcen>6.0</dctoPorcen>
+        <cantidad>6.0</cantidad>
+        <producto>
+          <alias>Cama de mascotas</alias>
+          <descripcion>Cama acolchada suave para perros pequeños o gatos</descripcion>
+          <precioVenta>6.0</precioVenta>
+          <precioCompra>2.0</precioCompra>
+          <stock>14</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>4.0</precioFinal>
+        <dctoPorcen>4.0</dctoPorcen>
+        <cantidad>4.0</cantidad>
+        <producto>
+          <alias>Cargador</alias>
+          <descripcion>Adaptador de corriente USB de pared</descripcion>
+          <precioVenta>3.5</precioVenta>
+          <precioCompra>1.0</precioCompra>
+          <stock>35</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Carpeta de color</alias>
+          <descripcion>Carpeta clasificadora de cartulina resistente</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.35</precioCompra>
+          <stock>50</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cepillo</alias>
+          <descripcion>Cepillo de pelo ergonómico antienredos</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.25</precioCompra>
+          <stock>35</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cinta de color</alias>
+          <descripcion>Cinta decorativa de tela satinada</descripcion>
+          <precioVenta>0.6</precioVenta>
+          <precioCompra>0.1</precioCompra>
+          <stock>80</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cinta adhesiva</alias>
+          <descripcion>Rollo de celo transparente de alta adherencia</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.2</precioCompra>
+          <stock>73</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>0.0</precioFinal>
+        <dctoPorcen>0.0</dctoPorcen>
+        <cantidad>0.0</cantidad>
+        <producto>
+          <alias>Clavos</alias>
+          <descripcion>Caja de clavos de acero galvanizado surtidos</descripcion>
+          <precioVenta>0.4</precioVenta>
+          <precioCompra>0.05</precioCompra>
+          <stock>164</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>3.0</precioFinal>
+        <dctoPorcen>3.0</dctoPorcen>
+        <cantidad>3.0</cantidad>
+        <producto>
+          <alias>Coche</alias>
+          <descripcion>Coche de juguete metálico a escala</descripcion>
+          <precioVenta>3.0</precioVenta>
+          <precioCompra>0.7</precioCompra>
+          <stock>29</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>2.0</precioFinal>
+        <dctoPorcen>2.0</dctoPorcen>
+        <cantidad>2.0</cantidad>
+        <producto>
+          <alias>Collar de mascota</alias>
+          <descripcion>Collar ajustable de nylon con cierre de clip</descripcion>
+          <precioVenta>2.0</precioVenta>
+          <precioCompra>0.5</precioCompra>
+          <stock>13</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cortauñas</alias>
+          <descripcion>Cortauñas de acero inoxidable con lima</descripcion>
+          <precioVenta>1.2</precioVenta>
+          <precioCompra>0.3</precioCompra>
+          <stock>41</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+    </productosPedidos>
+  </pedidoVenta>
+  <pedidoVenta id="8">
+    <fecha>2025-11-28</fecha>
+    <bRecoger>true</bRecoger>
+    <fecEntrega>2025-11-30</fecEntrega>
+    <direccion>Calle Falsa 8</direccion>
+    <idFactura>8</idFactura>
+    <idCliente>8</idCliente>
+    <productosPedidos>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Agenda</alias>
+          <descripcion>Cuaderno de organización diaria para oficina</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.3</precioCompra>
+          <stock>30</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Aguja</alias>
+          <descripcion>Pack de agujas de acero para costura fina</descripcion>
+          <precioVenta>0.5</precioVenta>
+          <precioCompra>0.05</precioCompra>
+          <stock>200</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Archivadores de color</alias>
+          <descripcion>Archivador A4 con anillas y lomo ancho</descripcion>
+          <precioVenta>1.2</precioVenta>
+          <precioCompra>0.4</precioCompra>
+          <stock>0</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>4.0</precioFinal>
+        <dctoPorcen>4.0</dctoPorcen>
+        <cantidad>4.0</cantidad>
+        <producto>
+          <alias>Auriculares</alias>
+          <descripcion>Auriculares estéreo básicos con conexión jack 3.5mm</descripcion>
+          <precioVenta>4.0</precioVenta>
+          <precioCompra>1.5</precioCompra>
+          <stock>15</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Boligrafo</alias>
+          <descripcion>Bolígrafo de tinta azul punta media</descripcion>
+          <precioVenta>0.7</precioVenta>
+          <precioCompra>0.1</precioCompra>
+          <stock>100</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Bolsas de heces</alias>
+          <descripcion>Rollo de bolsas higiénicas biodegradables</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.2</precioCompra>
+          <stock>10</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>0.0</precioFinal>
+        <dctoPorcen>0.0</dctoPorcen>
+        <cantidad>0.0</cantidad>
+        <producto>
+          <alias>Boton</alias>
+          <descripcion>Botones de plástico redondos para recambio</descripcion>
+          <precioVenta>0.3</precioVenta>
+          <precioCompra>0.03</precioCompra>
+          <stock>400</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>3.0</precioFinal>
+        <dctoPorcen>3.0</dctoPorcen>
+        <cantidad>3.0</cantidad>
+        <producto>
+          <alias>Cable USB</alias>
+          <descripcion>Cable de carga y transferencia de datos estándar</descripcion>
+          <precioVenta>2.5</precioVenta>
+          <precioCompra>0.8</precioCompra>
+          <stock>20</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>6.0</precioFinal>
+        <dctoPorcen>6.0</dctoPorcen>
+        <cantidad>6.0</cantidad>
+        <producto>
+          <alias>Cama de mascotas</alias>
+          <descripcion>Cama acolchada suave para perros pequeños o gatos</descripcion>
+          <precioVenta>6.0</precioVenta>
+          <precioCompra>2.0</precioCompra>
+          <stock>14</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>4.0</precioFinal>
+        <dctoPorcen>4.0</dctoPorcen>
+        <cantidad>4.0</cantidad>
+        <producto>
+          <alias>Cargador</alias>
+          <descripcion>Adaptador de corriente USB de pared</descripcion>
+          <precioVenta>3.5</precioVenta>
+          <precioCompra>1.0</precioCompra>
+          <stock>35</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Carpeta de color</alias>
+          <descripcion>Carpeta clasificadora de cartulina resistente</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.35</precioCompra>
+          <stock>50</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cepillo</alias>
+          <descripcion>Cepillo de pelo ergonómico antienredos</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.25</precioCompra>
+          <stock>35</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cinta de color</alias>
+          <descripcion>Cinta decorativa de tela satinada</descripcion>
+          <precioVenta>0.6</precioVenta>
+          <precioCompra>0.1</precioCompra>
+          <stock>80</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cinta adhesiva</alias>
+          <descripcion>Rollo de celo transparente de alta adherencia</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.2</precioCompra>
+          <stock>73</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>0.0</precioFinal>
+        <dctoPorcen>0.0</dctoPorcen>
+        <cantidad>0.0</cantidad>
+        <producto>
+          <alias>Clavos</alias>
+          <descripcion>Caja de clavos de acero galvanizado surtidos</descripcion>
+          <precioVenta>0.4</precioVenta>
+          <precioCompra>0.05</precioCompra>
+          <stock>164</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>3.0</precioFinal>
+        <dctoPorcen>3.0</dctoPorcen>
+        <cantidad>3.0</cantidad>
+        <producto>
+          <alias>Coche</alias>
+          <descripcion>Coche de juguete metálico a escala</descripcion>
+          <precioVenta>3.0</precioVenta>
+          <precioCompra>0.7</precioCompra>
+          <stock>29</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>2.0</precioFinal>
+        <dctoPorcen>2.0</dctoPorcen>
+        <cantidad>2.0</cantidad>
+        <producto>
+          <alias>Collar de mascota</alias>
+          <descripcion>Collar ajustable de nylon con cierre de clip</descripcion>
+          <precioVenta>2.0</precioVenta>
+          <precioCompra>0.5</precioCompra>
+          <stock>13</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cortauñas</alias>
+          <descripcion>Cortauñas de acero inoxidable con lima</descripcion>
+          <precioVenta>1.2</precioVenta>
+          <precioCompra>0.3</precioCompra>
+          <stock>41</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+    </productosPedidos>
+  </pedidoVenta>
+  <pedidoVenta id="9">
+    <fecha>2025-11-29</fecha>
+    <bRecoger>false</bRecoger>
+    <fecEntrega>2025-12-01</fecEntrega>
+    <direccion>Calle Falsa 9</direccion>
+    <idFactura>9</idFactura>
+    <idCliente>9</idCliente>
+    <productosPedidos>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Agenda</alias>
+          <descripcion>Cuaderno de organización diaria para oficina</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.3</precioCompra>
+          <stock>30</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Aguja</alias>
+          <descripcion>Pack de agujas de acero para costura fina</descripcion>
+          <precioVenta>0.5</precioVenta>
+          <precioCompra>0.05</precioCompra>
+          <stock>200</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Archivadores de color</alias>
+          <descripcion>Archivador A4 con anillas y lomo ancho</descripcion>
+          <precioVenta>1.2</precioVenta>
+          <precioCompra>0.4</precioCompra>
+          <stock>0</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>4.0</precioFinal>
+        <dctoPorcen>4.0</dctoPorcen>
+        <cantidad>4.0</cantidad>
+        <producto>
+          <alias>Auriculares</alias>
+          <descripcion>Auriculares estéreo básicos con conexión jack 3.5mm</descripcion>
+          <precioVenta>4.0</precioVenta>
+          <precioCompra>1.5</precioCompra>
+          <stock>15</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Boligrafo</alias>
+          <descripcion>Bolígrafo de tinta azul punta media</descripcion>
+          <precioVenta>0.7</precioVenta>
+          <precioCompra>0.1</precioCompra>
+          <stock>100</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Bolsas de heces</alias>
+          <descripcion>Rollo de bolsas higiénicas biodegradables</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.2</precioCompra>
+          <stock>10</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>0.0</precioFinal>
+        <dctoPorcen>0.0</dctoPorcen>
+        <cantidad>0.0</cantidad>
+        <producto>
+          <alias>Boton</alias>
+          <descripcion>Botones de plástico redondos para recambio</descripcion>
+          <precioVenta>0.3</precioVenta>
+          <precioCompra>0.03</precioCompra>
+          <stock>400</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>3.0</precioFinal>
+        <dctoPorcen>3.0</dctoPorcen>
+        <cantidad>3.0</cantidad>
+        <producto>
+          <alias>Cable USB</alias>
+          <descripcion>Cable de carga y transferencia de datos estándar</descripcion>
+          <precioVenta>2.5</precioVenta>
+          <precioCompra>0.8</precioCompra>
+          <stock>20</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>6.0</precioFinal>
+        <dctoPorcen>6.0</dctoPorcen>
+        <cantidad>6.0</cantidad>
+        <producto>
+          <alias>Cama de mascotas</alias>
+          <descripcion>Cama acolchada suave para perros pequeños o gatos</descripcion>
+          <precioVenta>6.0</precioVenta>
+          <precioCompra>2.0</precioCompra>
+          <stock>14</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>4.0</precioFinal>
+        <dctoPorcen>4.0</dctoPorcen>
+        <cantidad>4.0</cantidad>
+        <producto>
+          <alias>Cargador</alias>
+          <descripcion>Adaptador de corriente USB de pared</descripcion>
+          <precioVenta>3.5</precioVenta>
+          <precioCompra>1.0</precioCompra>
+          <stock>35</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Carpeta de color</alias>
+          <descripcion>Carpeta clasificadora de cartulina resistente</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.35</precioCompra>
+          <stock>50</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cepillo</alias>
+          <descripcion>Cepillo de pelo ergonómico antienredos</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.25</precioCompra>
+          <stock>35</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cinta de color</alias>
+          <descripcion>Cinta decorativa de tela satinada</descripcion>
+          <precioVenta>0.6</precioVenta>
+          <precioCompra>0.1</precioCompra>
+          <stock>80</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cinta adhesiva</alias>
+          <descripcion>Rollo de celo transparente de alta adherencia</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.2</precioCompra>
+          <stock>73</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>0.0</precioFinal>
+        <dctoPorcen>0.0</dctoPorcen>
+        <cantidad>0.0</cantidad>
+        <producto>
+          <alias>Clavos</alias>
+          <descripcion>Caja de clavos de acero galvanizado surtidos</descripcion>
+          <precioVenta>0.4</precioVenta>
+          <precioCompra>0.05</precioCompra>
+          <stock>164</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>3.0</precioFinal>
+        <dctoPorcen>3.0</dctoPorcen>
+        <cantidad>3.0</cantidad>
+        <producto>
+          <alias>Coche</alias>
+          <descripcion>Coche de juguete metálico a escala</descripcion>
+          <precioVenta>3.0</precioVenta>
+          <precioCompra>0.7</precioCompra>
+          <stock>29</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>2.0</precioFinal>
+        <dctoPorcen>2.0</dctoPorcen>
+        <cantidad>2.0</cantidad>
+        <producto>
+          <alias>Collar de mascota</alias>
+          <descripcion>Collar ajustable de nylon con cierre de clip</descripcion>
+          <precioVenta>2.0</precioVenta>
+          <precioCompra>0.5</precioCompra>
+          <stock>13</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cortauñas</alias>
+          <descripcion>Cortauñas de acero inoxidable con lima</descripcion>
+          <precioVenta>1.2</precioVenta>
+          <precioCompra>0.3</precioCompra>
+          <stock>41</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+    </productosPedidos>
+  </pedidoVenta>
+  <pedidoVenta id="10">
+    <fecha>2025-11-30</fecha>
+    <bRecoger>true</bRecoger>
+    <fecEntrega>2025-12-02</fecEntrega>
+    <direccion>Calle Falsa 10</direccion>
+    <idFactura>10</idFactura>
+    <idCliente>10</idCliente>
+    <productosPedidos>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Agenda</alias>
+          <descripcion>Cuaderno de organización diaria para oficina</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.3</precioCompra>
+          <stock>30</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Aguja</alias>
+          <descripcion>Pack de agujas de acero para costura fina</descripcion>
+          <precioVenta>0.5</precioVenta>
+          <precioCompra>0.05</precioCompra>
+          <stock>200</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Archivadores de color</alias>
+          <descripcion>Archivador A4 con anillas y lomo ancho</descripcion>
+          <precioVenta>1.2</precioVenta>
+          <precioCompra>0.4</precioCompra>
+          <stock>0</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>4.0</precioFinal>
+        <dctoPorcen>4.0</dctoPorcen>
+        <cantidad>4.0</cantidad>
+        <producto>
+          <alias>Auriculares</alias>
+          <descripcion>Auriculares estéreo básicos con conexión jack 3.5mm</descripcion>
+          <precioVenta>4.0</precioVenta>
+          <precioCompra>1.5</precioCompra>
+          <stock>15</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Boligrafo</alias>
+          <descripcion>Bolígrafo de tinta azul punta media</descripcion>
+          <precioVenta>0.7</precioVenta>
+          <precioCompra>0.1</precioCompra>
+          <stock>100</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Bolsas de heces</alias>
+          <descripcion>Rollo de bolsas higiénicas biodegradables</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.2</precioCompra>
+          <stock>10</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>0.0</precioFinal>
+        <dctoPorcen>0.0</dctoPorcen>
+        <cantidad>0.0</cantidad>
+        <producto>
+          <alias>Boton</alias>
+          <descripcion>Botones de plástico redondos para recambio</descripcion>
+          <precioVenta>0.3</precioVenta>
+          <precioCompra>0.03</precioCompra>
+          <stock>400</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>3.0</precioFinal>
+        <dctoPorcen>3.0</dctoPorcen>
+        <cantidad>3.0</cantidad>
+        <producto>
+          <alias>Cable USB</alias>
+          <descripcion>Cable de carga y transferencia de datos estándar</descripcion>
+          <precioVenta>2.5</precioVenta>
+          <precioCompra>0.8</precioCompra>
+          <stock>20</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>6.0</precioFinal>
+        <dctoPorcen>6.0</dctoPorcen>
+        <cantidad>6.0</cantidad>
+        <producto>
+          <alias>Cama de mascotas</alias>
+          <descripcion>Cama acolchada suave para perros pequeños o gatos</descripcion>
+          <precioVenta>6.0</precioVenta>
+          <precioCompra>2.0</precioCompra>
+          <stock>14</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>4.0</precioFinal>
+        <dctoPorcen>4.0</dctoPorcen>
+        <cantidad>4.0</cantidad>
+        <producto>
+          <alias>Cargador</alias>
+          <descripcion>Adaptador de corriente USB de pared</descripcion>
+          <precioVenta>3.5</precioVenta>
+          <precioCompra>1.0</precioCompra>
+          <stock>35</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Carpeta de color</alias>
+          <descripcion>Carpeta clasificadora de cartulina resistente</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.35</precioCompra>
+          <stock>50</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cepillo</alias>
+          <descripcion>Cepillo de pelo ergonómico antienredos</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.25</precioCompra>
+          <stock>35</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cinta de color</alias>
+          <descripcion>Cinta decorativa de tela satinada</descripcion>
+          <precioVenta>0.6</precioVenta>
+          <precioCompra>0.1</precioCompra>
+          <stock>80</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cinta adhesiva</alias>
+          <descripcion>Rollo de celo transparente de alta adherencia</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.2</precioCompra>
+          <stock>73</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>0.0</precioFinal>
+        <dctoPorcen>0.0</dctoPorcen>
+        <cantidad>0.0</cantidad>
+        <producto>
+          <alias>Clavos</alias>
+          <descripcion>Caja de clavos de acero galvanizado surtidos</descripcion>
+          <precioVenta>0.4</precioVenta>
+          <precioCompra>0.05</precioCompra>
+          <stock>164</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>3.0</precioFinal>
+        <dctoPorcen>3.0</dctoPorcen>
+        <cantidad>3.0</cantidad>
+        <producto>
+          <alias>Coche</alias>
+          <descripcion>Coche de juguete metálico a escala</descripcion>
+          <precioVenta>3.0</precioVenta>
+          <precioCompra>0.7</precioCompra>
+          <stock>29</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>2.0</precioFinal>
+        <dctoPorcen>2.0</dctoPorcen>
+        <cantidad>2.0</cantidad>
+        <producto>
+          <alias>Collar de mascota</alias>
+          <descripcion>Collar ajustable de nylon con cierre de clip</descripcion>
+          <precioVenta>2.0</precioVenta>
+          <precioCompra>0.5</precioCompra>
+          <stock>13</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cortauñas</alias>
+          <descripcion>Cortauñas de acero inoxidable con lima</descripcion>
+          <precioVenta>1.2</precioVenta>
+          <precioCompra>0.3</precioCompra>
+          <stock>41</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+    </productosPedidos>
+  </pedidoVenta>
+  <pedidoVenta id="11">
+    <fecha>2025-12-01</fecha>
+    <bRecoger>true</bRecoger>
+    <fecEntrega>2025-12-03</fecEntrega>
+    <direccion>Calle Falsa 11</direccion>
+    <idFactura>11</idFactura>
+    <idCliente>11</idCliente>
+    <productosPedidos>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Agenda</alias>
+          <descripcion>Cuaderno de organización diaria para oficina</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.3</precioCompra>
+          <stock>30</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Aguja</alias>
+          <descripcion>Pack de agujas de acero para costura fina</descripcion>
+          <precioVenta>0.5</precioVenta>
+          <precioCompra>0.05</precioCompra>
+          <stock>200</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Archivadores de color</alias>
+          <descripcion>Archivador A4 con anillas y lomo ancho</descripcion>
+          <precioVenta>1.2</precioVenta>
+          <precioCompra>0.4</precioCompra>
+          <stock>0</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>4.0</precioFinal>
+        <dctoPorcen>4.0</dctoPorcen>
+        <cantidad>4.0</cantidad>
+        <producto>
+          <alias>Auriculares</alias>
+          <descripcion>Auriculares estéreo básicos con conexión jack 3.5mm</descripcion>
+          <precioVenta>4.0</precioVenta>
+          <precioCompra>1.5</precioCompra>
+          <stock>15</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Boligrafo</alias>
+          <descripcion>Bolígrafo de tinta azul punta media</descripcion>
+          <precioVenta>0.7</precioVenta>
+          <precioCompra>0.1</precioCompra>
+          <stock>100</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Bolsas de heces</alias>
+          <descripcion>Rollo de bolsas higiénicas biodegradables</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.2</precioCompra>
+          <stock>10</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>0.0</precioFinal>
+        <dctoPorcen>0.0</dctoPorcen>
+        <cantidad>0.0</cantidad>
+        <producto>
+          <alias>Boton</alias>
+          <descripcion>Botones de plástico redondos para recambio</descripcion>
+          <precioVenta>0.3</precioVenta>
+          <precioCompra>0.03</precioCompra>
+          <stock>400</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>3.0</precioFinal>
+        <dctoPorcen>3.0</dctoPorcen>
+        <cantidad>3.0</cantidad>
+        <producto>
+          <alias>Cable USB</alias>
+          <descripcion>Cable de carga y transferencia de datos estándar</descripcion>
+          <precioVenta>2.5</precioVenta>
+          <precioCompra>0.8</precioCompra>
+          <stock>20</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>6.0</precioFinal>
+        <dctoPorcen>6.0</dctoPorcen>
+        <cantidad>6.0</cantidad>
+        <producto>
+          <alias>Cama de mascotas</alias>
+          <descripcion>Cama acolchada suave para perros pequeños o gatos</descripcion>
+          <precioVenta>6.0</precioVenta>
+          <precioCompra>2.0</precioCompra>
+          <stock>14</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>4.0</precioFinal>
+        <dctoPorcen>4.0</dctoPorcen>
+        <cantidad>4.0</cantidad>
+        <producto>
+          <alias>Cargador</alias>
+          <descripcion>Adaptador de corriente USB de pared</descripcion>
+          <precioVenta>3.5</precioVenta>
+          <precioCompra>1.0</precioCompra>
+          <stock>35</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Carpeta de color</alias>
+          <descripcion>Carpeta clasificadora de cartulina resistente</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.35</precioCompra>
+          <stock>50</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cepillo</alias>
+          <descripcion>Cepillo de pelo ergonómico antienredos</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.25</precioCompra>
+          <stock>35</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cinta de color</alias>
+          <descripcion>Cinta decorativa de tela satinada</descripcion>
+          <precioVenta>0.6</precioVenta>
+          <precioCompra>0.1</precioCompra>
+          <stock>80</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cinta adhesiva</alias>
+          <descripcion>Rollo de celo transparente de alta adherencia</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.2</precioCompra>
+          <stock>73</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>0.0</precioFinal>
+        <dctoPorcen>0.0</dctoPorcen>
+        <cantidad>0.0</cantidad>
+        <producto>
+          <alias>Clavos</alias>
+          <descripcion>Caja de clavos de acero galvanizado surtidos</descripcion>
+          <precioVenta>0.4</precioVenta>
+          <precioCompra>0.05</precioCompra>
+          <stock>164</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>3.0</precioFinal>
+        <dctoPorcen>3.0</dctoPorcen>
+        <cantidad>3.0</cantidad>
+        <producto>
+          <alias>Coche</alias>
+          <descripcion>Coche de juguete metálico a escala</descripcion>
+          <precioVenta>3.0</precioVenta>
+          <precioCompra>0.7</precioCompra>
+          <stock>29</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>2.0</precioFinal>
+        <dctoPorcen>2.0</dctoPorcen>
+        <cantidad>2.0</cantidad>
+        <producto>
+          <alias>Collar de mascota</alias>
+          <descripcion>Collar ajustable de nylon con cierre de clip</descripcion>
+          <precioVenta>2.0</precioVenta>
+          <precioCompra>0.5</precioCompra>
+          <stock>13</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cortauñas</alias>
+          <descripcion>Cortauñas de acero inoxidable con lima</descripcion>
+          <precioVenta>1.2</precioVenta>
+          <precioCompra>0.3</precioCompra>
+          <stock>41</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+    </productosPedidos>
+  </pedidoVenta>
+  <pedidoVenta id="12">
+    <fecha>2025-12-02</fecha>
+    <bRecoger>false</bRecoger>
+    <fecEntrega>2025-12-04</fecEntrega>
+    <direccion>Calle Falsa 12</direccion>
+    <idFactura>12</idFactura>
+    <idCliente>12</idCliente>
+    <productosPedidos>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Agenda</alias>
+          <descripcion>Cuaderno de organización diaria para oficina</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.3</precioCompra>
+          <stock>30</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Aguja</alias>
+          <descripcion>Pack de agujas de acero para costura fina</descripcion>
+          <precioVenta>0.5</precioVenta>
+          <precioCompra>0.05</precioCompra>
+          <stock>200</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Archivadores de color</alias>
+          <descripcion>Archivador A4 con anillas y lomo ancho</descripcion>
+          <precioVenta>1.2</precioVenta>
+          <precioCompra>0.4</precioCompra>
+          <stock>0</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>4.0</precioFinal>
+        <dctoPorcen>4.0</dctoPorcen>
+        <cantidad>4.0</cantidad>
+        <producto>
+          <alias>Auriculares</alias>
+          <descripcion>Auriculares estéreo básicos con conexión jack 3.5mm</descripcion>
+          <precioVenta>4.0</precioVenta>
+          <precioCompra>1.5</precioCompra>
+          <stock>15</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Boligrafo</alias>
+          <descripcion>Bolígrafo de tinta azul punta media</descripcion>
+          <precioVenta>0.7</precioVenta>
+          <precioCompra>0.1</precioCompra>
+          <stock>100</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Bolsas de heces</alias>
+          <descripcion>Rollo de bolsas higiénicas biodegradables</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.2</precioCompra>
+          <stock>10</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>0.0</precioFinal>
+        <dctoPorcen>0.0</dctoPorcen>
+        <cantidad>0.0</cantidad>
+        <producto>
+          <alias>Boton</alias>
+          <descripcion>Botones de plástico redondos para recambio</descripcion>
+          <precioVenta>0.3</precioVenta>
+          <precioCompra>0.03</precioCompra>
+          <stock>400</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>3.0</precioFinal>
+        <dctoPorcen>3.0</dctoPorcen>
+        <cantidad>3.0</cantidad>
+        <producto>
+          <alias>Cable USB</alias>
+          <descripcion>Cable de carga y transferencia de datos estándar</descripcion>
+          <precioVenta>2.5</precioVenta>
+          <precioCompra>0.8</precioCompra>
+          <stock>20</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>6.0</precioFinal>
+        <dctoPorcen>6.0</dctoPorcen>
+        <cantidad>6.0</cantidad>
+        <producto>
+          <alias>Cama de mascotas</alias>
+          <descripcion>Cama acolchada suave para perros pequeños o gatos</descripcion>
+          <precioVenta>6.0</precioVenta>
+          <precioCompra>2.0</precioCompra>
+          <stock>14</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>4.0</precioFinal>
+        <dctoPorcen>4.0</dctoPorcen>
+        <cantidad>4.0</cantidad>
+        <producto>
+          <alias>Cargador</alias>
+          <descripcion>Adaptador de corriente USB de pared</descripcion>
+          <precioVenta>3.5</precioVenta>
+          <precioCompra>1.0</precioCompra>
+          <stock>35</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Carpeta de color</alias>
+          <descripcion>Carpeta clasificadora de cartulina resistente</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.35</precioCompra>
+          <stock>50</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cepillo</alias>
+          <descripcion>Cepillo de pelo ergonómico antienredos</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.25</precioCompra>
+          <stock>35</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cinta de color</alias>
+          <descripcion>Cinta decorativa de tela satinada</descripcion>
+          <precioVenta>0.6</precioVenta>
+          <precioCompra>0.1</precioCompra>
+          <stock>80</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cinta adhesiva</alias>
+          <descripcion>Rollo de celo transparente de alta adherencia</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.2</precioCompra>
+          <stock>73</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>0.0</precioFinal>
+        <dctoPorcen>0.0</dctoPorcen>
+        <cantidad>0.0</cantidad>
+        <producto>
+          <alias>Clavos</alias>
+          <descripcion>Caja de clavos de acero galvanizado surtidos</descripcion>
+          <precioVenta>0.4</precioVenta>
+          <precioCompra>0.05</precioCompra>
+          <stock>164</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>3.0</precioFinal>
+        <dctoPorcen>3.0</dctoPorcen>
+        <cantidad>3.0</cantidad>
+        <producto>
+          <alias>Coche</alias>
+          <descripcion>Coche de juguete metálico a escala</descripcion>
+          <precioVenta>3.0</precioVenta>
+          <precioCompra>0.7</precioCompra>
+          <stock>29</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>2.0</precioFinal>
+        <dctoPorcen>2.0</dctoPorcen>
+        <cantidad>2.0</cantidad>
+        <producto>
+          <alias>Collar de mascota</alias>
+          <descripcion>Collar ajustable de nylon con cierre de clip</descripcion>
+          <precioVenta>2.0</precioVenta>
+          <precioCompra>0.5</precioCompra>
+          <stock>13</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cortauñas</alias>
+          <descripcion>Cortauñas de acero inoxidable con lima</descripcion>
+          <precioVenta>1.2</precioVenta>
+          <precioCompra>0.3</precioCompra>
+          <stock>41</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+    </productosPedidos>
+  </pedidoVenta>
+  <pedidoVenta id="13">
+    <fecha>2025-12-03</fecha>
+    <bRecoger>true</bRecoger>
+    <fecEntrega>2025-12-05</fecEntrega>
+    <direccion>Calle Falsa 13</direccion>
+    <idFactura>13</idFactura>
+    <idCliente>13</idCliente>
+    <productosPedidos>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Agenda</alias>
+          <descripcion>Cuaderno de organización diaria para oficina</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.3</precioCompra>
+          <stock>30</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Aguja</alias>
+          <descripcion>Pack de agujas de acero para costura fina</descripcion>
+          <precioVenta>0.5</precioVenta>
+          <precioCompra>0.05</precioCompra>
+          <stock>200</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Archivadores de color</alias>
+          <descripcion>Archivador A4 con anillas y lomo ancho</descripcion>
+          <precioVenta>1.2</precioVenta>
+          <precioCompra>0.4</precioCompra>
+          <stock>0</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>4.0</precioFinal>
+        <dctoPorcen>4.0</dctoPorcen>
+        <cantidad>4.0</cantidad>
+        <producto>
+          <alias>Auriculares</alias>
+          <descripcion>Auriculares estéreo básicos con conexión jack 3.5mm</descripcion>
+          <precioVenta>4.0</precioVenta>
+          <precioCompra>1.5</precioCompra>
+          <stock>15</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Boligrafo</alias>
+          <descripcion>Bolígrafo de tinta azul punta media</descripcion>
+          <precioVenta>0.7</precioVenta>
+          <precioCompra>0.1</precioCompra>
+          <stock>100</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Bolsas de heces</alias>
+          <descripcion>Rollo de bolsas higiénicas biodegradables</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.2</precioCompra>
+          <stock>10</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>0.0</precioFinal>
+        <dctoPorcen>0.0</dctoPorcen>
+        <cantidad>0.0</cantidad>
+        <producto>
+          <alias>Boton</alias>
+          <descripcion>Botones de plástico redondos para recambio</descripcion>
+          <precioVenta>0.3</precioVenta>
+          <precioCompra>0.03</precioCompra>
+          <stock>400</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>3.0</precioFinal>
+        <dctoPorcen>3.0</dctoPorcen>
+        <cantidad>3.0</cantidad>
+        <producto>
+          <alias>Cable USB</alias>
+          <descripcion>Cable de carga y transferencia de datos estándar</descripcion>
+          <precioVenta>2.5</precioVenta>
+          <precioCompra>0.8</precioCompra>
+          <stock>20</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>6.0</precioFinal>
+        <dctoPorcen>6.0</dctoPorcen>
+        <cantidad>6.0</cantidad>
+        <producto>
+          <alias>Cama de mascotas</alias>
+          <descripcion>Cama acolchada suave para perros pequeños o gatos</descripcion>
+          <precioVenta>6.0</precioVenta>
+          <precioCompra>2.0</precioCompra>
+          <stock>14</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>4.0</precioFinal>
+        <dctoPorcen>4.0</dctoPorcen>
+        <cantidad>4.0</cantidad>
+        <producto>
+          <alias>Cargador</alias>
+          <descripcion>Adaptador de corriente USB de pared</descripcion>
+          <precioVenta>3.5</precioVenta>
+          <precioCompra>1.0</precioCompra>
+          <stock>35</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Carpeta de color</alias>
+          <descripcion>Carpeta clasificadora de cartulina resistente</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.35</precioCompra>
+          <stock>50</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cepillo</alias>
+          <descripcion>Cepillo de pelo ergonómico antienredos</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.25</precioCompra>
+          <stock>35</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cinta de color</alias>
+          <descripcion>Cinta decorativa de tela satinada</descripcion>
+          <precioVenta>0.6</precioVenta>
+          <precioCompra>0.1</precioCompra>
+          <stock>80</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cinta adhesiva</alias>
+          <descripcion>Rollo de celo transparente de alta adherencia</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.2</precioCompra>
+          <stock>73</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>0.0</precioFinal>
+        <dctoPorcen>0.0</dctoPorcen>
+        <cantidad>0.0</cantidad>
+        <producto>
+          <alias>Clavos</alias>
+          <descripcion>Caja de clavos de acero galvanizado surtidos</descripcion>
+          <precioVenta>0.4</precioVenta>
+          <precioCompra>0.05</precioCompra>
+          <stock>164</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>3.0</precioFinal>
+        <dctoPorcen>3.0</dctoPorcen>
+        <cantidad>3.0</cantidad>
+        <producto>
+          <alias>Coche</alias>
+          <descripcion>Coche de juguete metálico a escala</descripcion>
+          <precioVenta>3.0</precioVenta>
+          <precioCompra>0.7</precioCompra>
+          <stock>29</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>2.0</precioFinal>
+        <dctoPorcen>2.0</dctoPorcen>
+        <cantidad>2.0</cantidad>
+        <producto>
+          <alias>Collar de mascota</alias>
+          <descripcion>Collar ajustable de nylon con cierre de clip</descripcion>
+          <precioVenta>2.0</precioVenta>
+          <precioCompra>0.5</precioCompra>
+          <stock>13</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cortauñas</alias>
+          <descripcion>Cortauñas de acero inoxidable con lima</descripcion>
+          <precioVenta>1.2</precioVenta>
+          <precioCompra>0.3</precioCompra>
+          <stock>41</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+    </productosPedidos>
+  </pedidoVenta>
+  <pedidoVenta id="14">
+    <fecha>2025-12-04</fecha>
+    <bRecoger>false</bRecoger>
+    <fecEntrega>2025-12-06</fecEntrega>
+    <direccion>Calle Falsa 14</direccion>
+    <idFactura>14</idFactura>
+    <idCliente>14</idCliente>
+    <productosPedidos>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Agenda</alias>
+          <descripcion>Cuaderno de organización diaria para oficina</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.3</precioCompra>
+          <stock>30</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Aguja</alias>
+          <descripcion>Pack de agujas de acero para costura fina</descripcion>
+          <precioVenta>0.5</precioVenta>
+          <precioCompra>0.05</precioCompra>
+          <stock>200</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Archivadores de color</alias>
+          <descripcion>Archivador A4 con anillas y lomo ancho</descripcion>
+          <precioVenta>1.2</precioVenta>
+          <precioCompra>0.4</precioCompra>
+          <stock>0</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>4.0</precioFinal>
+        <dctoPorcen>4.0</dctoPorcen>
+        <cantidad>4.0</cantidad>
+        <producto>
+          <alias>Auriculares</alias>
+          <descripcion>Auriculares estéreo básicos con conexión jack 3.5mm</descripcion>
+          <precioVenta>4.0</precioVenta>
+          <precioCompra>1.5</precioCompra>
+          <stock>15</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Boligrafo</alias>
+          <descripcion>Bolígrafo de tinta azul punta media</descripcion>
+          <precioVenta>0.7</precioVenta>
+          <precioCompra>0.1</precioCompra>
+          <stock>100</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Bolsas de heces</alias>
+          <descripcion>Rollo de bolsas higiénicas biodegradables</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.2</precioCompra>
+          <stock>10</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>0.0</precioFinal>
+        <dctoPorcen>0.0</dctoPorcen>
+        <cantidad>0.0</cantidad>
+        <producto>
+          <alias>Boton</alias>
+          <descripcion>Botones de plástico redondos para recambio</descripcion>
+          <precioVenta>0.3</precioVenta>
+          <precioCompra>0.03</precioCompra>
+          <stock>400</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>3.0</precioFinal>
+        <dctoPorcen>3.0</dctoPorcen>
+        <cantidad>3.0</cantidad>
+        <producto>
+          <alias>Cable USB</alias>
+          <descripcion>Cable de carga y transferencia de datos estándar</descripcion>
+          <precioVenta>2.5</precioVenta>
+          <precioCompra>0.8</precioCompra>
+          <stock>20</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>6.0</precioFinal>
+        <dctoPorcen>6.0</dctoPorcen>
+        <cantidad>6.0</cantidad>
+        <producto>
+          <alias>Cama de mascotas</alias>
+          <descripcion>Cama acolchada suave para perros pequeños o gatos</descripcion>
+          <precioVenta>6.0</precioVenta>
+          <precioCompra>2.0</precioCompra>
+          <stock>14</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>4.0</precioFinal>
+        <dctoPorcen>4.0</dctoPorcen>
+        <cantidad>4.0</cantidad>
+        <producto>
+          <alias>Cargador</alias>
+          <descripcion>Adaptador de corriente USB de pared</descripcion>
+          <precioVenta>3.5</precioVenta>
+          <precioCompra>1.0</precioCompra>
+          <stock>35</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Carpeta de color</alias>
+          <descripcion>Carpeta clasificadora de cartulina resistente</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.35</precioCompra>
+          <stock>50</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cepillo</alias>
+          <descripcion>Cepillo de pelo ergonómico antienredos</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.25</precioCompra>
+          <stock>35</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cinta de color</alias>
+          <descripcion>Cinta decorativa de tela satinada</descripcion>
+          <precioVenta>0.6</precioVenta>
+          <precioCompra>0.1</precioCompra>
+          <stock>80</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cinta adhesiva</alias>
+          <descripcion>Rollo de celo transparente de alta adherencia</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.2</precioCompra>
+          <stock>73</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>0.0</precioFinal>
+        <dctoPorcen>0.0</dctoPorcen>
+        <cantidad>0.0</cantidad>
+        <producto>
+          <alias>Clavos</alias>
+          <descripcion>Caja de clavos de acero galvanizado surtidos</descripcion>
+          <precioVenta>0.4</precioVenta>
+          <precioCompra>0.05</precioCompra>
+          <stock>164</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>3.0</precioFinal>
+        <dctoPorcen>3.0</dctoPorcen>
+        <cantidad>3.0</cantidad>
+        <producto>
+          <alias>Coche</alias>
+          <descripcion>Coche de juguete metálico a escala</descripcion>
+          <precioVenta>3.0</precioVenta>
+          <precioCompra>0.7</precioCompra>
+          <stock>29</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>2.0</precioFinal>
+        <dctoPorcen>2.0</dctoPorcen>
+        <cantidad>2.0</cantidad>
+        <producto>
+          <alias>Collar de mascota</alias>
+          <descripcion>Collar ajustable de nylon con cierre de clip</descripcion>
+          <precioVenta>2.0</precioVenta>
+          <precioCompra>0.5</precioCompra>
+          <stock>13</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cortauñas</alias>
+          <descripcion>Cortauñas de acero inoxidable con lima</descripcion>
+          <precioVenta>1.2</precioVenta>
+          <precioCompra>0.3</precioCompra>
+          <stock>41</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+    </productosPedidos>
+  </pedidoVenta>
+  <pedidoVenta id="15">
+    <fecha>2025-12-05</fecha>
+    <bRecoger>true</bRecoger>
+    <fecEntrega>2025-12-07</fecEntrega>
+    <direccion>Calle Falsa 15</direccion>
+    <idFactura>15</idFactura>
+    <idCliente>15</idCliente>
+    <productosPedidos>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Agenda</alias>
+          <descripcion>Cuaderno de organización diaria para oficina</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.3</precioCompra>
+          <stock>30</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Aguja</alias>
+          <descripcion>Pack de agujas de acero para costura fina</descripcion>
+          <precioVenta>0.5</precioVenta>
+          <precioCompra>0.05</precioCompra>
+          <stock>200</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Archivadores de color</alias>
+          <descripcion>Archivador A4 con anillas y lomo ancho</descripcion>
+          <precioVenta>1.2</precioVenta>
+          <precioCompra>0.4</precioCompra>
+          <stock>0</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>4.0</precioFinal>
+        <dctoPorcen>4.0</dctoPorcen>
+        <cantidad>4.0</cantidad>
+        <producto>
+          <alias>Auriculares</alias>
+          <descripcion>Auriculares estéreo básicos con conexión jack 3.5mm</descripcion>
+          <precioVenta>4.0</precioVenta>
+          <precioCompra>1.5</precioCompra>
+          <stock>15</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Boligrafo</alias>
+          <descripcion>Bolígrafo de tinta azul punta media</descripcion>
+          <precioVenta>0.7</precioVenta>
+          <precioCompra>0.1</precioCompra>
+          <stock>100</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Bolsas de heces</alias>
+          <descripcion>Rollo de bolsas higiénicas biodegradables</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.2</precioCompra>
+          <stock>10</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>0.0</precioFinal>
+        <dctoPorcen>0.0</dctoPorcen>
+        <cantidad>0.0</cantidad>
+        <producto>
+          <alias>Boton</alias>
+          <descripcion>Botones de plástico redondos para recambio</descripcion>
+          <precioVenta>0.3</precioVenta>
+          <precioCompra>0.03</precioCompra>
+          <stock>400</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>3.0</precioFinal>
+        <dctoPorcen>3.0</dctoPorcen>
+        <cantidad>3.0</cantidad>
+        <producto>
+          <alias>Cable USB</alias>
+          <descripcion>Cable de carga y transferencia de datos estándar</descripcion>
+          <precioVenta>2.5</precioVenta>
+          <precioCompra>0.8</precioCompra>
+          <stock>20</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>6.0</precioFinal>
+        <dctoPorcen>6.0</dctoPorcen>
+        <cantidad>6.0</cantidad>
+        <producto>
+          <alias>Cama de mascotas</alias>
+          <descripcion>Cama acolchada suave para perros pequeños o gatos</descripcion>
+          <precioVenta>6.0</precioVenta>
+          <precioCompra>2.0</precioCompra>
+          <stock>14</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>4.0</precioFinal>
+        <dctoPorcen>4.0</dctoPorcen>
+        <cantidad>4.0</cantidad>
+        <producto>
+          <alias>Cargador</alias>
+          <descripcion>Adaptador de corriente USB de pared</descripcion>
+          <precioVenta>3.5</precioVenta>
+          <precioCompra>1.0</precioCompra>
+          <stock>35</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Carpeta de color</alias>
+          <descripcion>Carpeta clasificadora de cartulina resistente</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.35</precioCompra>
+          <stock>50</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cepillo</alias>
+          <descripcion>Cepillo de pelo ergonómico antienredos</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.25</precioCompra>
+          <stock>35</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cinta de color</alias>
+          <descripcion>Cinta decorativa de tela satinada</descripcion>
+          <precioVenta>0.6</precioVenta>
+          <precioCompra>0.1</precioCompra>
+          <stock>80</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cinta adhesiva</alias>
+          <descripcion>Rollo de celo transparente de alta adherencia</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.2</precioCompra>
+          <stock>73</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>0.0</precioFinal>
+        <dctoPorcen>0.0</dctoPorcen>
+        <cantidad>0.0</cantidad>
+        <producto>
+          <alias>Clavos</alias>
+          <descripcion>Caja de clavos de acero galvanizado surtidos</descripcion>
+          <precioVenta>0.4</precioVenta>
+          <precioCompra>0.05</precioCompra>
+          <stock>164</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>3.0</precioFinal>
+        <dctoPorcen>3.0</dctoPorcen>
+        <cantidad>3.0</cantidad>
+        <producto>
+          <alias>Coche</alias>
+          <descripcion>Coche de juguete metálico a escala</descripcion>
+          <precioVenta>3.0</precioVenta>
+          <precioCompra>0.7</precioCompra>
+          <stock>29</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>2.0</precioFinal>
+        <dctoPorcen>2.0</dctoPorcen>
+        <cantidad>2.0</cantidad>
+        <producto>
+          <alias>Collar de mascota</alias>
+          <descripcion>Collar ajustable de nylon con cierre de clip</descripcion>
+          <precioVenta>2.0</precioVenta>
+          <precioCompra>0.5</precioCompra>
+          <stock>13</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cortauñas</alias>
+          <descripcion>Cortauñas de acero inoxidable con lima</descripcion>
+          <precioVenta>1.2</precioVenta>
+          <precioCompra>0.3</precioCompra>
+          <stock>41</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+    </productosPedidos>
+  </pedidoVenta>
+  <pedidoVenta id="16">
+    <fecha>2025-12-06</fecha>
+    <bRecoger>true</bRecoger>
+    <fecEntrega>2025-12-08</fecEntrega>
+    <direccion>Calle Falsa 16</direccion>
+    <idFactura>16</idFactura>
+    <idCliente>16</idCliente>
+    <productosPedidos>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Agenda</alias>
+          <descripcion>Cuaderno de organización diaria para oficina</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.3</precioCompra>
+          <stock>30</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Aguja</alias>
+          <descripcion>Pack de agujas de acero para costura fina</descripcion>
+          <precioVenta>0.5</precioVenta>
+          <precioCompra>0.05</precioCompra>
+          <stock>200</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Archivadores de color</alias>
+          <descripcion>Archivador A4 con anillas y lomo ancho</descripcion>
+          <precioVenta>1.2</precioVenta>
+          <precioCompra>0.4</precioCompra>
+          <stock>0</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>4.0</precioFinal>
+        <dctoPorcen>4.0</dctoPorcen>
+        <cantidad>4.0</cantidad>
+        <producto>
+          <alias>Auriculares</alias>
+          <descripcion>Auriculares estéreo básicos con conexión jack 3.5mm</descripcion>
+          <precioVenta>4.0</precioVenta>
+          <precioCompra>1.5</precioCompra>
+          <stock>15</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Boligrafo</alias>
+          <descripcion>Bolígrafo de tinta azul punta media</descripcion>
+          <precioVenta>0.7</precioVenta>
+          <precioCompra>0.1</precioCompra>
+          <stock>100</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Bolsas de heces</alias>
+          <descripcion>Rollo de bolsas higiénicas biodegradables</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.2</precioCompra>
+          <stock>10</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>0.0</precioFinal>
+        <dctoPorcen>0.0</dctoPorcen>
+        <cantidad>0.0</cantidad>
+        <producto>
+          <alias>Boton</alias>
+          <descripcion>Botones de plástico redondos para recambio</descripcion>
+          <precioVenta>0.3</precioVenta>
+          <precioCompra>0.03</precioCompra>
+          <stock>400</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>3.0</precioFinal>
+        <dctoPorcen>3.0</dctoPorcen>
+        <cantidad>3.0</cantidad>
+        <producto>
+          <alias>Cable USB</alias>
+          <descripcion>Cable de carga y transferencia de datos estándar</descripcion>
+          <precioVenta>2.5</precioVenta>
+          <precioCompra>0.8</precioCompra>
+          <stock>20</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>6.0</precioFinal>
+        <dctoPorcen>6.0</dctoPorcen>
+        <cantidad>6.0</cantidad>
+        <producto>
+          <alias>Cama de mascotas</alias>
+          <descripcion>Cama acolchada suave para perros pequeños o gatos</descripcion>
+          <precioVenta>6.0</precioVenta>
+          <precioCompra>2.0</precioCompra>
+          <stock>14</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>4.0</precioFinal>
+        <dctoPorcen>4.0</dctoPorcen>
+        <cantidad>4.0</cantidad>
+        <producto>
+          <alias>Cargador</alias>
+          <descripcion>Adaptador de corriente USB de pared</descripcion>
+          <precioVenta>3.5</precioVenta>
+          <precioCompra>1.0</precioCompra>
+          <stock>35</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Carpeta de color</alias>
+          <descripcion>Carpeta clasificadora de cartulina resistente</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.35</precioCompra>
+          <stock>50</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cepillo</alias>
+          <descripcion>Cepillo de pelo ergonómico antienredos</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.25</precioCompra>
+          <stock>35</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cinta de color</alias>
+          <descripcion>Cinta decorativa de tela satinada</descripcion>
+          <precioVenta>0.6</precioVenta>
+          <precioCompra>0.1</precioCompra>
+          <stock>80</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cinta adhesiva</alias>
+          <descripcion>Rollo de celo transparente de alta adherencia</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.2</precioCompra>
+          <stock>73</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>0.0</precioFinal>
+        <dctoPorcen>0.0</dctoPorcen>
+        <cantidad>0.0</cantidad>
+        <producto>
+          <alias>Clavos</alias>
+          <descripcion>Caja de clavos de acero galvanizado surtidos</descripcion>
+          <precioVenta>0.4</precioVenta>
+          <precioCompra>0.05</precioCompra>
+          <stock>164</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>3.0</precioFinal>
+        <dctoPorcen>3.0</dctoPorcen>
+        <cantidad>3.0</cantidad>
+        <producto>
+          <alias>Coche</alias>
+          <descripcion>Coche de juguete metálico a escala</descripcion>
+          <precioVenta>3.0</precioVenta>
+          <precioCompra>0.7</precioCompra>
+          <stock>29</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>2.0</precioFinal>
+        <dctoPorcen>2.0</dctoPorcen>
+        <cantidad>2.0</cantidad>
+        <producto>
+          <alias>Collar de mascota</alias>
+          <descripcion>Collar ajustable de nylon con cierre de clip</descripcion>
+          <precioVenta>2.0</precioVenta>
+          <precioCompra>0.5</precioCompra>
+          <stock>13</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cortauñas</alias>
+          <descripcion>Cortauñas de acero inoxidable con lima</descripcion>
+          <precioVenta>1.2</precioVenta>
+          <precioCompra>0.3</precioCompra>
+          <stock>41</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+    </productosPedidos>
+  </pedidoVenta>
+  <pedidoVenta id="17">
+    <fecha>2025-12-07</fecha>
+    <bRecoger>false</bRecoger>
+    <fecEntrega>2025-12-09</fecEntrega>
+    <direccion>Calle Falsa 17</direccion>
+    <idFactura>17</idFactura>
+    <idCliente>17</idCliente>
+    <productosPedidos>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Agenda</alias>
+          <descripcion>Cuaderno de organización diaria para oficina</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.3</precioCompra>
+          <stock>30</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Aguja</alias>
+          <descripcion>Pack de agujas de acero para costura fina</descripcion>
+          <precioVenta>0.5</precioVenta>
+          <precioCompra>0.05</precioCompra>
+          <stock>200</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Archivadores de color</alias>
+          <descripcion>Archivador A4 con anillas y lomo ancho</descripcion>
+          <precioVenta>1.2</precioVenta>
+          <precioCompra>0.4</precioCompra>
+          <stock>0</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>4.0</precioFinal>
+        <dctoPorcen>4.0</dctoPorcen>
+        <cantidad>4.0</cantidad>
+        <producto>
+          <alias>Auriculares</alias>
+          <descripcion>Auriculares estéreo básicos con conexión jack 3.5mm</descripcion>
+          <precioVenta>4.0</precioVenta>
+          <precioCompra>1.5</precioCompra>
+          <stock>15</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Boligrafo</alias>
+          <descripcion>Bolígrafo de tinta azul punta media</descripcion>
+          <precioVenta>0.7</precioVenta>
+          <precioCompra>0.1</precioCompra>
+          <stock>100</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Bolsas de heces</alias>
+          <descripcion>Rollo de bolsas higiénicas biodegradables</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.2</precioCompra>
+          <stock>10</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>0.0</precioFinal>
+        <dctoPorcen>0.0</dctoPorcen>
+        <cantidad>0.0</cantidad>
+        <producto>
+          <alias>Boton</alias>
+          <descripcion>Botones de plástico redondos para recambio</descripcion>
+          <precioVenta>0.3</precioVenta>
+          <precioCompra>0.03</precioCompra>
+          <stock>400</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>3.0</precioFinal>
+        <dctoPorcen>3.0</dctoPorcen>
+        <cantidad>3.0</cantidad>
+        <producto>
+          <alias>Cable USB</alias>
+          <descripcion>Cable de carga y transferencia de datos estándar</descripcion>
+          <precioVenta>2.5</precioVenta>
+          <precioCompra>0.8</precioCompra>
+          <stock>20</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>6.0</precioFinal>
+        <dctoPorcen>6.0</dctoPorcen>
+        <cantidad>6.0</cantidad>
+        <producto>
+          <alias>Cama de mascotas</alias>
+          <descripcion>Cama acolchada suave para perros pequeños o gatos</descripcion>
+          <precioVenta>6.0</precioVenta>
+          <precioCompra>2.0</precioCompra>
+          <stock>14</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>4.0</precioFinal>
+        <dctoPorcen>4.0</dctoPorcen>
+        <cantidad>4.0</cantidad>
+        <producto>
+          <alias>Cargador</alias>
+          <descripcion>Adaptador de corriente USB de pared</descripcion>
+          <precioVenta>3.5</precioVenta>
+          <precioCompra>1.0</precioCompra>
+          <stock>35</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Carpeta de color</alias>
+          <descripcion>Carpeta clasificadora de cartulina resistente</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.35</precioCompra>
+          <stock>50</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cepillo</alias>
+          <descripcion>Cepillo de pelo ergonómico antienredos</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.25</precioCompra>
+          <stock>35</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cinta de color</alias>
+          <descripcion>Cinta decorativa de tela satinada</descripcion>
+          <precioVenta>0.6</precioVenta>
+          <precioCompra>0.1</precioCompra>
+          <stock>80</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cinta adhesiva</alias>
+          <descripcion>Rollo de celo transparente de alta adherencia</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.2</precioCompra>
+          <stock>73</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>0.0</precioFinal>
+        <dctoPorcen>0.0</dctoPorcen>
+        <cantidad>0.0</cantidad>
+        <producto>
+          <alias>Clavos</alias>
+          <descripcion>Caja de clavos de acero galvanizado surtidos</descripcion>
+          <precioVenta>0.4</precioVenta>
+          <precioCompra>0.05</precioCompra>
+          <stock>164</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>3.0</precioFinal>
+        <dctoPorcen>3.0</dctoPorcen>
+        <cantidad>3.0</cantidad>
+        <producto>
+          <alias>Coche</alias>
+          <descripcion>Coche de juguete metálico a escala</descripcion>
+          <precioVenta>3.0</precioVenta>
+          <precioCompra>0.7</precioCompra>
+          <stock>29</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>2.0</precioFinal>
+        <dctoPorcen>2.0</dctoPorcen>
+        <cantidad>2.0</cantidad>
+        <producto>
+          <alias>Collar de mascota</alias>
+          <descripcion>Collar ajustable de nylon con cierre de clip</descripcion>
+          <precioVenta>2.0</precioVenta>
+          <precioCompra>0.5</precioCompra>
+          <stock>13</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cortauñas</alias>
+          <descripcion>Cortauñas de acero inoxidable con lima</descripcion>
+          <precioVenta>1.2</precioVenta>
+          <precioCompra>0.3</precioCompra>
+          <stock>41</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+    </productosPedidos>
+  </pedidoVenta>
+  <pedidoVenta id="18">
+    <fecha>2025-12-08</fecha>
+    <bRecoger>true</bRecoger>
+    <fecEntrega>2025-12-10</fecEntrega>
+    <direccion>Calle Falsa 18</direccion>
+    <idFactura>18</idFactura>
+    <idCliente>18</idCliente>
+    <productosPedidos>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Agenda</alias>
+          <descripcion>Cuaderno de organización diaria para oficina</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.3</precioCompra>
+          <stock>30</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Aguja</alias>
+          <descripcion>Pack de agujas de acero para costura fina</descripcion>
+          <precioVenta>0.5</precioVenta>
+          <precioCompra>0.05</precioCompra>
+          <stock>200</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Archivadores de color</alias>
+          <descripcion>Archivador A4 con anillas y lomo ancho</descripcion>
+          <precioVenta>1.2</precioVenta>
+          <precioCompra>0.4</precioCompra>
+          <stock>0</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>4.0</precioFinal>
+        <dctoPorcen>4.0</dctoPorcen>
+        <cantidad>4.0</cantidad>
+        <producto>
+          <alias>Auriculares</alias>
+          <descripcion>Auriculares estéreo básicos con conexión jack 3.5mm</descripcion>
+          <precioVenta>4.0</precioVenta>
+          <precioCompra>1.5</precioCompra>
+          <stock>15</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Boligrafo</alias>
+          <descripcion>Bolígrafo de tinta azul punta media</descripcion>
+          <precioVenta>0.7</precioVenta>
+          <precioCompra>0.1</precioCompra>
+          <stock>100</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Bolsas de heces</alias>
+          <descripcion>Rollo de bolsas higiénicas biodegradables</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.2</precioCompra>
+          <stock>10</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>0.0</precioFinal>
+        <dctoPorcen>0.0</dctoPorcen>
+        <cantidad>0.0</cantidad>
+        <producto>
+          <alias>Boton</alias>
+          <descripcion>Botones de plástico redondos para recambio</descripcion>
+          <precioVenta>0.3</precioVenta>
+          <precioCompra>0.03</precioCompra>
+          <stock>400</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>3.0</precioFinal>
+        <dctoPorcen>3.0</dctoPorcen>
+        <cantidad>3.0</cantidad>
+        <producto>
+          <alias>Cable USB</alias>
+          <descripcion>Cable de carga y transferencia de datos estándar</descripcion>
+          <precioVenta>2.5</precioVenta>
+          <precioCompra>0.8</precioCompra>
+          <stock>20</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>6.0</precioFinal>
+        <dctoPorcen>6.0</dctoPorcen>
+        <cantidad>6.0</cantidad>
+        <producto>
+          <alias>Cama de mascotas</alias>
+          <descripcion>Cama acolchada suave para perros pequeños o gatos</descripcion>
+          <precioVenta>6.0</precioVenta>
+          <precioCompra>2.0</precioCompra>
+          <stock>14</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>4.0</precioFinal>
+        <dctoPorcen>4.0</dctoPorcen>
+        <cantidad>4.0</cantidad>
+        <producto>
+          <alias>Cargador</alias>
+          <descripcion>Adaptador de corriente USB de pared</descripcion>
+          <precioVenta>3.5</precioVenta>
+          <precioCompra>1.0</precioCompra>
+          <stock>35</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Carpeta de color</alias>
+          <descripcion>Carpeta clasificadora de cartulina resistente</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.35</precioCompra>
+          <stock>50</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cepillo</alias>
+          <descripcion>Cepillo de pelo ergonómico antienredos</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.25</precioCompra>
+          <stock>35</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cinta de color</alias>
+          <descripcion>Cinta decorativa de tela satinada</descripcion>
+          <precioVenta>0.6</precioVenta>
+          <precioCompra>0.1</precioCompra>
+          <stock>80</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cinta adhesiva</alias>
+          <descripcion>Rollo de celo transparente de alta adherencia</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.2</precioCompra>
+          <stock>73</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>0.0</precioFinal>
+        <dctoPorcen>0.0</dctoPorcen>
+        <cantidad>0.0</cantidad>
+        <producto>
+          <alias>Clavos</alias>
+          <descripcion>Caja de clavos de acero galvanizado surtidos</descripcion>
+          <precioVenta>0.4</precioVenta>
+          <precioCompra>0.05</precioCompra>
+          <stock>164</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>3.0</precioFinal>
+        <dctoPorcen>3.0</dctoPorcen>
+        <cantidad>3.0</cantidad>
+        <producto>
+          <alias>Coche</alias>
+          <descripcion>Coche de juguete metálico a escala</descripcion>
+          <precioVenta>3.0</precioVenta>
+          <precioCompra>0.7</precioCompra>
+          <stock>29</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>2.0</precioFinal>
+        <dctoPorcen>2.0</dctoPorcen>
+        <cantidad>2.0</cantidad>
+        <producto>
+          <alias>Collar de mascota</alias>
+          <descripcion>Collar ajustable de nylon con cierre de clip</descripcion>
+          <precioVenta>2.0</precioVenta>
+          <precioCompra>0.5</precioCompra>
+          <stock>13</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cortauñas</alias>
+          <descripcion>Cortauñas de acero inoxidable con lima</descripcion>
+          <precioVenta>1.2</precioVenta>
+          <precioCompra>0.3</precioCompra>
+          <stock>41</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+    </productosPedidos>
+  </pedidoVenta>
+  <pedidoVenta id="19">
+    <fecha>2025-12-09</fecha>
+    <bRecoger>true</bRecoger>
+    <fecEntrega>2025-12-11</fecEntrega>
+    <direccion>Calle Falsa 19</direccion>
+    <idFactura>19</idFactura>
+    <idCliente>19</idCliente>
+    <productosPedidos>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Agenda</alias>
+          <descripcion>Cuaderno de organización diaria para oficina</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.3</precioCompra>
+          <stock>30</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Aguja</alias>
+          <descripcion>Pack de agujas de acero para costura fina</descripcion>
+          <precioVenta>0.5</precioVenta>
+          <precioCompra>0.05</precioCompra>
+          <stock>200</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Archivadores de color</alias>
+          <descripcion>Archivador A4 con anillas y lomo ancho</descripcion>
+          <precioVenta>1.2</precioVenta>
+          <precioCompra>0.4</precioCompra>
+          <stock>0</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>4.0</precioFinal>
+        <dctoPorcen>4.0</dctoPorcen>
+        <cantidad>4.0</cantidad>
+        <producto>
+          <alias>Auriculares</alias>
+          <descripcion>Auriculares estéreo básicos con conexión jack 3.5mm</descripcion>
+          <precioVenta>4.0</precioVenta>
+          <precioCompra>1.5</precioCompra>
+          <stock>15</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Boligrafo</alias>
+          <descripcion>Bolígrafo de tinta azul punta media</descripcion>
+          <precioVenta>0.7</precioVenta>
+          <precioCompra>0.1</precioCompra>
+          <stock>100</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Bolsas de heces</alias>
+          <descripcion>Rollo de bolsas higiénicas biodegradables</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.2</precioCompra>
+          <stock>10</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>0.0</precioFinal>
+        <dctoPorcen>0.0</dctoPorcen>
+        <cantidad>0.0</cantidad>
+        <producto>
+          <alias>Boton</alias>
+          <descripcion>Botones de plástico redondos para recambio</descripcion>
+          <precioVenta>0.3</precioVenta>
+          <precioCompra>0.03</precioCompra>
+          <stock>400</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>3.0</precioFinal>
+        <dctoPorcen>3.0</dctoPorcen>
+        <cantidad>3.0</cantidad>
+        <producto>
+          <alias>Cable USB</alias>
+          <descripcion>Cable de carga y transferencia de datos estándar</descripcion>
+          <precioVenta>2.5</precioVenta>
+          <precioCompra>0.8</precioCompra>
+          <stock>20</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>6.0</precioFinal>
+        <dctoPorcen>6.0</dctoPorcen>
+        <cantidad>6.0</cantidad>
+        <producto>
+          <alias>Cama de mascotas</alias>
+          <descripcion>Cama acolchada suave para perros pequeños o gatos</descripcion>
+          <precioVenta>6.0</precioVenta>
+          <precioCompra>2.0</precioCompra>
+          <stock>14</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>4.0</precioFinal>
+        <dctoPorcen>4.0</dctoPorcen>
+        <cantidad>4.0</cantidad>
+        <producto>
+          <alias>Cargador</alias>
+          <descripcion>Adaptador de corriente USB de pared</descripcion>
+          <precioVenta>3.5</precioVenta>
+          <precioCompra>1.0</precioCompra>
+          <stock>35</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Carpeta de color</alias>
+          <descripcion>Carpeta clasificadora de cartulina resistente</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.35</precioCompra>
+          <stock>50</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cepillo</alias>
+          <descripcion>Cepillo de pelo ergonómico antienredos</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.25</precioCompra>
+          <stock>35</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cinta de color</alias>
+          <descripcion>Cinta decorativa de tela satinada</descripcion>
+          <precioVenta>0.6</precioVenta>
+          <precioCompra>0.1</precioCompra>
+          <stock>80</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cinta adhesiva</alias>
+          <descripcion>Rollo de celo transparente de alta adherencia</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.2</precioCompra>
+          <stock>73</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>0.0</precioFinal>
+        <dctoPorcen>0.0</dctoPorcen>
+        <cantidad>0.0</cantidad>
+        <producto>
+          <alias>Clavos</alias>
+          <descripcion>Caja de clavos de acero galvanizado surtidos</descripcion>
+          <precioVenta>0.4</precioVenta>
+          <precioCompra>0.05</precioCompra>
+          <stock>164</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>3.0</precioFinal>
+        <dctoPorcen>3.0</dctoPorcen>
+        <cantidad>3.0</cantidad>
+        <producto>
+          <alias>Coche</alias>
+          <descripcion>Coche de juguete metálico a escala</descripcion>
+          <precioVenta>3.0</precioVenta>
+          <precioCompra>0.7</precioCompra>
+          <stock>29</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>2.0</precioFinal>
+        <dctoPorcen>2.0</dctoPorcen>
+        <cantidad>2.0</cantidad>
+        <producto>
+          <alias>Collar de mascota</alias>
+          <descripcion>Collar ajustable de nylon con cierre de clip</descripcion>
+          <precioVenta>2.0</precioVenta>
+          <precioCompra>0.5</precioCompra>
+          <stock>13</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cortauñas</alias>
+          <descripcion>Cortauñas de acero inoxidable con lima</descripcion>
+          <precioVenta>1.2</precioVenta>
+          <precioCompra>0.3</precioCompra>
+          <stock>41</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+    </productosPedidos>
+  </pedidoVenta>
+  <pedidoVenta id="20">
+    <fecha>2025-12-10</fecha>
+    <bRecoger>false</bRecoger>
+    <fecEntrega>2025-12-12</fecEntrega>
+    <direccion>Calle Falsa 20</direccion>
+    <idFactura>20</idFactura>
+    <idCliente>20</idCliente>
+    <productosPedidos>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Agenda</alias>
+          <descripcion>Cuaderno de organización diaria para oficina</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.3</precioCompra>
+          <stock>30</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Aguja</alias>
+          <descripcion>Pack de agujas de acero para costura fina</descripcion>
+          <precioVenta>0.5</precioVenta>
+          <precioCompra>0.05</precioCompra>
+          <stock>200</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Archivadores de color</alias>
+          <descripcion>Archivador A4 con anillas y lomo ancho</descripcion>
+          <precioVenta>1.2</precioVenta>
+          <precioCompra>0.4</precioCompra>
+          <stock>0</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>4.0</precioFinal>
+        <dctoPorcen>4.0</dctoPorcen>
+        <cantidad>4.0</cantidad>
+        <producto>
+          <alias>Auriculares</alias>
+          <descripcion>Auriculares estéreo básicos con conexión jack 3.5mm</descripcion>
+          <precioVenta>4.0</precioVenta>
+          <precioCompra>1.5</precioCompra>
+          <stock>15</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Boligrafo</alias>
+          <descripcion>Bolígrafo de tinta azul punta media</descripcion>
+          <precioVenta>0.7</precioVenta>
+          <precioCompra>0.1</precioCompra>
+          <stock>100</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Bolsas de heces</alias>
+          <descripcion>Rollo de bolsas higiénicas biodegradables</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.2</precioCompra>
+          <stock>10</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>0.0</precioFinal>
+        <dctoPorcen>0.0</dctoPorcen>
+        <cantidad>0.0</cantidad>
+        <producto>
+          <alias>Boton</alias>
+          <descripcion>Botones de plástico redondos para recambio</descripcion>
+          <precioVenta>0.3</precioVenta>
+          <precioCompra>0.03</precioCompra>
+          <stock>400</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>3.0</precioFinal>
+        <dctoPorcen>3.0</dctoPorcen>
+        <cantidad>3.0</cantidad>
+        <producto>
+          <alias>Cable USB</alias>
+          <descripcion>Cable de carga y transferencia de datos estándar</descripcion>
+          <precioVenta>2.5</precioVenta>
+          <precioCompra>0.8</precioCompra>
+          <stock>20</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>6.0</precioFinal>
+        <dctoPorcen>6.0</dctoPorcen>
+        <cantidad>6.0</cantidad>
+        <producto>
+          <alias>Cama de mascotas</alias>
+          <descripcion>Cama acolchada suave para perros pequeños o gatos</descripcion>
+          <precioVenta>6.0</precioVenta>
+          <precioCompra>2.0</precioCompra>
+          <stock>14</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>4.0</precioFinal>
+        <dctoPorcen>4.0</dctoPorcen>
+        <cantidad>4.0</cantidad>
+        <producto>
+          <alias>Cargador</alias>
+          <descripcion>Adaptador de corriente USB de pared</descripcion>
+          <precioVenta>3.5</precioVenta>
+          <precioCompra>1.0</precioCompra>
+          <stock>35</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Carpeta de color</alias>
+          <descripcion>Carpeta clasificadora de cartulina resistente</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.35</precioCompra>
+          <stock>50</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cepillo</alias>
+          <descripcion>Cepillo de pelo ergonómico antienredos</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.25</precioCompra>
+          <stock>35</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cinta de color</alias>
+          <descripcion>Cinta decorativa de tela satinada</descripcion>
+          <precioVenta>0.6</precioVenta>
+          <precioCompra>0.1</precioCompra>
+          <stock>80</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cinta adhesiva</alias>
+          <descripcion>Rollo de celo transparente de alta adherencia</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.2</precioCompra>
+          <stock>73</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>0.0</precioFinal>
+        <dctoPorcen>0.0</dctoPorcen>
+        <cantidad>0.0</cantidad>
+        <producto>
+          <alias>Clavos</alias>
+          <descripcion>Caja de clavos de acero galvanizado surtidos</descripcion>
+          <precioVenta>0.4</precioVenta>
+          <precioCompra>0.05</precioCompra>
+          <stock>164</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>3.0</precioFinal>
+        <dctoPorcen>3.0</dctoPorcen>
+        <cantidad>3.0</cantidad>
+        <producto>
+          <alias>Coche</alias>
+          <descripcion>Coche de juguete metálico a escala</descripcion>
+          <precioVenta>3.0</precioVenta>
+          <precioCompra>0.7</precioCompra>
+          <stock>29</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>2.0</precioFinal>
+        <dctoPorcen>2.0</dctoPorcen>
+        <cantidad>2.0</cantidad>
+        <producto>
+          <alias>Collar de mascota</alias>
+          <descripcion>Collar ajustable de nylon con cierre de clip</descripcion>
+          <precioVenta>2.0</precioVenta>
+          <precioCompra>0.5</precioCompra>
+          <stock>13</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cortauñas</alias>
+          <descripcion>Cortauñas de acero inoxidable con lima</descripcion>
+          <precioVenta>1.2</precioVenta>
+          <precioCompra>0.3</precioCompra>
+          <stock>41</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+    </productosPedidos>
+  </pedidoVenta>
+  <pedidoVenta id="21">
+    <fecha>2025-12-11</fecha>
+    <bRecoger>true</bRecoger>
+    <fecEntrega>2025-12-13</fecEntrega>
+    <direccion>Calle Falsa 21</direccion>
+    <idFactura>21</idFactura>
+    <idCliente>21</idCliente>
+    <productosPedidos>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Agenda</alias>
+          <descripcion>Cuaderno de organización diaria para oficina</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.3</precioCompra>
+          <stock>30</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Aguja</alias>
+          <descripcion>Pack de agujas de acero para costura fina</descripcion>
+          <precioVenta>0.5</precioVenta>
+          <precioCompra>0.05</precioCompra>
+          <stock>200</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Archivadores de color</alias>
+          <descripcion>Archivador A4 con anillas y lomo ancho</descripcion>
+          <precioVenta>1.2</precioVenta>
+          <precioCompra>0.4</precioCompra>
+          <stock>0</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>4.0</precioFinal>
+        <dctoPorcen>4.0</dctoPorcen>
+        <cantidad>4.0</cantidad>
+        <producto>
+          <alias>Auriculares</alias>
+          <descripcion>Auriculares estéreo básicos con conexión jack 3.5mm</descripcion>
+          <precioVenta>4.0</precioVenta>
+          <precioCompra>1.5</precioCompra>
+          <stock>15</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Boligrafo</alias>
+          <descripcion>Bolígrafo de tinta azul punta media</descripcion>
+          <precioVenta>0.7</precioVenta>
+          <precioCompra>0.1</precioCompra>
+          <stock>100</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Bolsas de heces</alias>
+          <descripcion>Rollo de bolsas higiénicas biodegradables</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.2</precioCompra>
+          <stock>10</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>0.0</precioFinal>
+        <dctoPorcen>0.0</dctoPorcen>
+        <cantidad>0.0</cantidad>
+        <producto>
+          <alias>Boton</alias>
+          <descripcion>Botones de plástico redondos para recambio</descripcion>
+          <precioVenta>0.3</precioVenta>
+          <precioCompra>0.03</precioCompra>
+          <stock>400</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>3.0</precioFinal>
+        <dctoPorcen>3.0</dctoPorcen>
+        <cantidad>3.0</cantidad>
+        <producto>
+          <alias>Cable USB</alias>
+          <descripcion>Cable de carga y transferencia de datos estándar</descripcion>
+          <precioVenta>2.5</precioVenta>
+          <precioCompra>0.8</precioCompra>
+          <stock>20</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>6.0</precioFinal>
+        <dctoPorcen>6.0</dctoPorcen>
+        <cantidad>6.0</cantidad>
+        <producto>
+          <alias>Cama de mascotas</alias>
+          <descripcion>Cama acolchada suave para perros pequeños o gatos</descripcion>
+          <precioVenta>6.0</precioVenta>
+          <precioCompra>2.0</precioCompra>
+          <stock>14</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>4.0</precioFinal>
+        <dctoPorcen>4.0</dctoPorcen>
+        <cantidad>4.0</cantidad>
+        <producto>
+          <alias>Cargador</alias>
+          <descripcion>Adaptador de corriente USB de pared</descripcion>
+          <precioVenta>3.5</precioVenta>
+          <precioCompra>1.0</precioCompra>
+          <stock>35</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Carpeta de color</alias>
+          <descripcion>Carpeta clasificadora de cartulina resistente</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.35</precioCompra>
+          <stock>50</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cepillo</alias>
+          <descripcion>Cepillo de pelo ergonómico antienredos</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.25</precioCompra>
+          <stock>35</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cinta de color</alias>
+          <descripcion>Cinta decorativa de tela satinada</descripcion>
+          <precioVenta>0.6</precioVenta>
+          <precioCompra>0.1</precioCompra>
+          <stock>80</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cinta adhesiva</alias>
+          <descripcion>Rollo de celo transparente de alta adherencia</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.2</precioCompra>
+          <stock>73</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>0.0</precioFinal>
+        <dctoPorcen>0.0</dctoPorcen>
+        <cantidad>0.0</cantidad>
+        <producto>
+          <alias>Clavos</alias>
+          <descripcion>Caja de clavos de acero galvanizado surtidos</descripcion>
+          <precioVenta>0.4</precioVenta>
+          <precioCompra>0.05</precioCompra>
+          <stock>164</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>3.0</precioFinal>
+        <dctoPorcen>3.0</dctoPorcen>
+        <cantidad>3.0</cantidad>
+        <producto>
+          <alias>Coche</alias>
+          <descripcion>Coche de juguete metálico a escala</descripcion>
+          <precioVenta>3.0</precioVenta>
+          <precioCompra>0.7</precioCompra>
+          <stock>29</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>2.0</precioFinal>
+        <dctoPorcen>2.0</dctoPorcen>
+        <cantidad>2.0</cantidad>
+        <producto>
+          <alias>Collar de mascota</alias>
+          <descripcion>Collar ajustable de nylon con cierre de clip</descripcion>
+          <precioVenta>2.0</precioVenta>
+          <precioCompra>0.5</precioCompra>
+          <stock>13</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cortauñas</alias>
+          <descripcion>Cortauñas de acero inoxidable con lima</descripcion>
+          <precioVenta>1.2</precioVenta>
+          <precioCompra>0.3</precioCompra>
+          <stock>41</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+    </productosPedidos>
+  </pedidoVenta>
+  <pedidoVenta id="22">
+    <fecha>2025-12-12</fecha>
+    <bRecoger>false</bRecoger>
+    <fecEntrega>2025-12-14</fecEntrega>
+    <direccion>Calle Falsa 22</direccion>
+    <idFactura>22</idFactura>
+    <idCliente>22</idCliente>
+    <productosPedidos>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Agenda</alias>
+          <descripcion>Cuaderno de organización diaria para oficina</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.3</precioCompra>
+          <stock>30</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Aguja</alias>
+          <descripcion>Pack de agujas de acero para costura fina</descripcion>
+          <precioVenta>0.5</precioVenta>
+          <precioCompra>0.05</precioCompra>
+          <stock>200</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Archivadores de color</alias>
+          <descripcion>Archivador A4 con anillas y lomo ancho</descripcion>
+          <precioVenta>1.2</precioVenta>
+          <precioCompra>0.4</precioCompra>
+          <stock>0</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>4.0</precioFinal>
+        <dctoPorcen>4.0</dctoPorcen>
+        <cantidad>4.0</cantidad>
+        <producto>
+          <alias>Auriculares</alias>
+          <descripcion>Auriculares estéreo básicos con conexión jack 3.5mm</descripcion>
+          <precioVenta>4.0</precioVenta>
+          <precioCompra>1.5</precioCompra>
+          <stock>15</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Boligrafo</alias>
+          <descripcion>Bolígrafo de tinta azul punta media</descripcion>
+          <precioVenta>0.7</precioVenta>
+          <precioCompra>0.1</precioCompra>
+          <stock>100</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Bolsas de heces</alias>
+          <descripcion>Rollo de bolsas higiénicas biodegradables</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.2</precioCompra>
+          <stock>10</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>0.0</precioFinal>
+        <dctoPorcen>0.0</dctoPorcen>
+        <cantidad>0.0</cantidad>
+        <producto>
+          <alias>Boton</alias>
+          <descripcion>Botones de plástico redondos para recambio</descripcion>
+          <precioVenta>0.3</precioVenta>
+          <precioCompra>0.03</precioCompra>
+          <stock>400</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>3.0</precioFinal>
+        <dctoPorcen>3.0</dctoPorcen>
+        <cantidad>3.0</cantidad>
+        <producto>
+          <alias>Cable USB</alias>
+          <descripcion>Cable de carga y transferencia de datos estándar</descripcion>
+          <precioVenta>2.5</precioVenta>
+          <precioCompra>0.8</precioCompra>
+          <stock>20</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>6.0</precioFinal>
+        <dctoPorcen>6.0</dctoPorcen>
+        <cantidad>6.0</cantidad>
+        <producto>
+          <alias>Cama de mascotas</alias>
+          <descripcion>Cama acolchada suave para perros pequeños o gatos</descripcion>
+          <precioVenta>6.0</precioVenta>
+          <precioCompra>2.0</precioCompra>
+          <stock>14</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>4.0</precioFinal>
+        <dctoPorcen>4.0</dctoPorcen>
+        <cantidad>4.0</cantidad>
+        <producto>
+          <alias>Cargador</alias>
+          <descripcion>Adaptador de corriente USB de pared</descripcion>
+          <precioVenta>3.5</precioVenta>
+          <precioCompra>1.0</precioCompra>
+          <stock>35</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Carpeta de color</alias>
+          <descripcion>Carpeta clasificadora de cartulina resistente</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.35</precioCompra>
+          <stock>50</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cepillo</alias>
+          <descripcion>Cepillo de pelo ergonómico antienredos</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.25</precioCompra>
+          <stock>35</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cinta de color</alias>
+          <descripcion>Cinta decorativa de tela satinada</descripcion>
+          <precioVenta>0.6</precioVenta>
+          <precioCompra>0.1</precioCompra>
+          <stock>80</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cinta adhesiva</alias>
+          <descripcion>Rollo de celo transparente de alta adherencia</descripcion>
+          <precioVenta>1.0</precioVenta>
+          <precioCompra>0.2</precioCompra>
+          <stock>73</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>0.0</precioFinal>
+        <dctoPorcen>0.0</dctoPorcen>
+        <cantidad>0.0</cantidad>
+        <producto>
+          <alias>Clavos</alias>
+          <descripcion>Caja de clavos de acero galvanizado surtidos</descripcion>
+          <precioVenta>0.4</precioVenta>
+          <precioCompra>0.05</precioCompra>
+          <stock>164</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>3.0</precioFinal>
+        <dctoPorcen>3.0</dctoPorcen>
+        <cantidad>3.0</cantidad>
+        <producto>
+          <alias>Coche</alias>
+          <descripcion>Coche de juguete metálico a escala</descripcion>
+          <precioVenta>3.0</precioVenta>
+          <precioCompra>0.7</precioCompra>
+          <stock>29</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>2.0</precioFinal>
+        <dctoPorcen>2.0</dctoPorcen>
+        <cantidad>2.0</cantidad>
+        <producto>
+          <alias>Collar de mascota</alias>
+          <descripcion>Collar ajustable de nylon con cierre de clip</descripcion>
+          <precioVenta>2.0</precioVenta>
+          <precioCompra>0.5</precioCompra>
+          <stock>13</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+      <productosPedido>
+        <precioFinal>1.0</precioFinal>
+        <dctoPorcen>1.0</dctoPorcen>
+        <cantidad>1.0</cantidad>
+        <producto>
+          <alias>Cortauñas</alias>
+          <descripcion>Cortauñas de acero inoxidable con lima</descripcion>
+          <precioVenta>1.2</precioVenta>
+          <precioCompra>0.3</precioCompra>
+          <stock>41</stock>
+          <tipoIva>12</tipoIva>
+        </producto>
+      </productosPedido>
+    </productosPedidos>
+  </pedidoVenta>
+</pedidosVenta>

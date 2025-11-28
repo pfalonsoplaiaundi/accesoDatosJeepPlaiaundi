@@ -8,7 +8,7 @@ import infrastrutura.interfaces.ISerBD;
 public class RepoProducto extends AbsRepo<Producto> implements IRepoProducto {
 
 	public RepoProducto(ISerBD bd, EFactory<Producto> fac) {
-		super(bd, fac, "producto");
+		super(bd, fac, "productos");
 	}
 	
 }

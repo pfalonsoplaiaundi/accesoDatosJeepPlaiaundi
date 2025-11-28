@@ -12,7 +12,7 @@ import infrastrutura.interfaces.ISerBD;
 public class RepoProductosPedido extends AbsRepo<ProductosPedido> implements IRepoProductosPedido {
 	
 	public RepoProductosPedido(ISerBD bd, EFactory<ProductosPedido> fac) {
-		super(bd, fac, "PedidosVenta");
+		super(bd, fac, "productosPedido");
 	}
 
 	@Override

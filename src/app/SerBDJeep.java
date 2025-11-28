@@ -24,6 +24,7 @@ public class SerBDJeep implements ISerBDJeep {
 	@Override
 	public void verDatosDeBackUp() throws Exception {
 		for(PedidosVenta pedido: getBackUp()) {
+			
 			System.out.println(pedido);
 		}
 	}

@@ -29,7 +29,12 @@ public class SerXmlJeep implements ISerXmlJeep {
 		Element raiz = xml.insertar("pedidosVenta");
 		
 		// Sacamos la info fe la base de datos
-		ArrayList<PedidosVenta> pedidosVentas = bd.getBackUp();
+		ArrayList<PedidosVenta> pedidosVentas;
+		try {
+			pedidosVentas = bd.getBackUp();
+		} catch (Exception e) {
+			return false;
+		}
 		
 		// Creamos los nodos de pedidos
 		//HashMap<Integer, Element> pedidos = crearNodosPedidosVentas(pedidosVentas);

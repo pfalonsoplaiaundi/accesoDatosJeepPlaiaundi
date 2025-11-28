@@ -3,7 +3,6 @@ package infrastrutura.interfaces;
 import java.util.HashMap;
 
 import org.w3c.dom.Element;
-import org.w3c.dom.Node;
 
 public interface ISerDom {
 	public boolean crearDocumento(String nombreDocumento);

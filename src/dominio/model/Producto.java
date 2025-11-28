@@ -5,10 +5,13 @@ import dominio.EModel;
 public class Producto implements EModel {
 
 	public enum Categoria{
-		juguetes,
-		alimentos,
-		maquinaria,
-		herramientas
+		papeleria,
+		manualidades,
+		tecnologia,
+		mascotas,
+		cuidado_personal,
+		herramientas,
+		juguetes
 	}
 	
 	private int id;
