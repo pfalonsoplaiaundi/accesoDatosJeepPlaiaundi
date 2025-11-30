@@ -3,9 +3,13 @@ package dominio.factorias;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
+import dominio.factorias.interfaces.IFacProducto;
 import dominio.model.Producto;
 import dominio.model.Producto.Categoria;
 
+/**
+ * Factoria de creacion de productos
+ */
 public class FacProducto implements IFacProducto {
 
 	@Override

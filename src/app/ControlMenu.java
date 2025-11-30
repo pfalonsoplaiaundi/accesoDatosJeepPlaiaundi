@@ -3,6 +3,9 @@ package app;
 import dominio.ERenderizable;
 import view.Menu;
 
+/**
+ * Clase base abstracta para los menus de la app
+ */
 public abstract class ControlMenu implements ERenderizable {
 	
 	protected Menu view;
@@ -19,6 +22,10 @@ public abstract class ControlMenu implements ERenderizable {
 		this.view = view;
 	}
 	
+	/**
+	 * Funcion que alberga la logica del menu.
+	 * @param opc
+	 */
 	public abstract void selector(Object opc);
 
 }

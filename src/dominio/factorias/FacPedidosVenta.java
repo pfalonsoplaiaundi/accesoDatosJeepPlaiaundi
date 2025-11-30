@@ -5,11 +5,15 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
+import dominio.factorias.interfaces.IFacPedidosVenta;
 import dominio.model.PedidosVenta;
 import dominio.model.Producto;
 import dominio.model.ProductosPedido;
 import infrastrutura.interfaces.IRepoProductosPedido;
 
+/**
+ * Factoria de creacion de pedidos de venta
+ */
 public class FacPedidosVenta implements IFacPedidosVenta {
 
 	private IRepoProductosPedido rProductosPedido;

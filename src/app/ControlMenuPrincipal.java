@@ -2,14 +2,25 @@ package app;
 
 import java.util.HashMap;
 
+import app.interfaces.ISerBDJeep;
+import app.interfaces.ISerXmlJeep;
 import view.Menu;
 
+/**
+ * Objeto de control del menu principal
+ */
 public class ControlMenuPrincipal extends ControlMenu {
 
 	private ISerXmlJeep xml;
 	private ISerBDJeep bd;
 	private InputsApp in;
 	
+	/**
+	 * Construccion del menu principal
+	 * @param xml servicio de xml de la app
+	 * @param bd servicio de bd de la app
+	 * @param in servicio de input de la consola
+	 */
 	public ControlMenuPrincipal(ISerXmlJeep xml, ISerBDJeep bd, InputsApp in) {
 		super(null);
 		this.xml = xml;
@@ -37,6 +48,9 @@ public class ControlMenuPrincipal extends ControlMenu {
 	
 	}
 
+	/**
+	 * Funcion para hacer backup
+	 */
 	private void hacerBackUp() {
 		System.out.println(
 				"-".repeat(5) + 
@@ -51,6 +65,9 @@ public class ControlMenuPrincipal extends ControlMenu {
 		);
 	}
 
+	/**
+	 * Funcion para mostrar los datos de backup
+	 */
 	private void mostrarDatos() {
 		System.out.println(
 				"-".repeat(5) + 
@@ -68,7 +85,7 @@ public class ControlMenuPrincipal extends ControlMenu {
 		System.out.println(
 				"-".repeat(5) + 
 				" Finalizando proceso " + 
-				"-".repeat(5) 
+				"-".repeat(5) 	
 		);
 	}
 

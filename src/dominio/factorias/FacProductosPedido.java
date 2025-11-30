@@ -3,10 +3,14 @@ package dominio.factorias;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
+import dominio.factorias.interfaces.IFacProductosPedido;
 import dominio.model.Producto;
 import dominio.model.ProductosPedido;
 import infrastrutura.interfaces.IRepoProducto;
 
+/**
+ * Factoria de creacion de productos pedido
+ */
 public class FacProductosPedido implements IFacProductosPedido {
 
 	private IRepoProducto rProducto;

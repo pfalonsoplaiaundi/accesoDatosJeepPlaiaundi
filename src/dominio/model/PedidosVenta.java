@@ -5,6 +5,9 @@ import java.util.ArrayList;
 
 import dominio.EModel;
 
+/**
+ * Modelo de dominio pedidosVenta
+ */
 public class PedidosVenta implements EModel {
 
 	private int id;

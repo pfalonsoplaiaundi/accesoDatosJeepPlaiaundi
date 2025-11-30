@@ -25,11 +25,18 @@ import org.xml.sax.SAXException;
 
 import infrastrutura.interfaces.ISerDom;
 
+/**
+ * Servicio de creacion de un xml
+ */
 public class SerDom implements ISerDom {
 
 	private Document doc;
 	private File a;
 	
+	/**
+	 * Funcion para crear un documento xml, cada vez que se llama
+	 * cambia de documento. Si el documento ya existiera lo recupera.
+	 */
 	@Override
 	public boolean crearDocumento(String nombreDocumento) {
 		try {
@@ -53,11 +60,17 @@ public class SerDom implements ISerDom {
 
 
 	// Metodos de insercion de nodos en el xml
+	/** Metodo para insertar un nodo raiz sin atributos */
 	@Override public Element insertar(String nombre) { return insertar(null, nombre, null, null);}	
+	/** Metodo para insertar un nodo raiz con atributos */ 
 	@Override public Element insertar(String nombre, HashMap<String, String> atributoValor) { return insertar(null, nombre, null, atributoValor); }
+	/** Metodo para insertar un nodo sin atributos, ni value */
 	@Override public Element insertar(Element raiz, String nombre) {return insertar(raiz, nombre, null, null);}	
+	/** Metodo para insertar un nodo con atributos sin value */
 	@Override public Element insertar(Element raiz, String nombre, HashMap<String, String> atributoValor) {return insertar(raiz, nombre, null, atributoValor);}
+	/** Metodo para insertar un nodo sin atributos con value */
 	@Override public Element insertar(Element raiz, String nombre, String contenido) {return insertar(raiz, nombre, contenido, null);}	
+	/** Metodo para insertar un nodo con atributos y con value */
 	@Override public Element insertar(Element raiz, String nombre, String contenido, HashMap<String, String> atributoValor) {
 		// Crear elemento
 		Element result = doc.createElement(nombre);
@@ -86,6 +99,7 @@ public class SerDom implements ISerDom {
 		return result;
 	}
 	
+	/** Exporta el xml virual y crea el documento */
 	@Override
 	public boolean finalizarDocumento() {
 		try {

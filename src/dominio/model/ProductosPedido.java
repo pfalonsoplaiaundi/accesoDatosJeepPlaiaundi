@@ -2,14 +2,10 @@ package dominio.model;
 
 import dominio.EModel;
 
+/**
+ * Modelo de dominio productosPedido
+ */
 public class ProductosPedido implements EModel {
-
-	@Override
-	public String toString() {
-		return "\n----- ProductosPedido -----\nid: " + id + "\nidPedido: " + idPedido + "\nprecioFinal: " + precioFinal
-				+ "\ndctoPorcen: " + dctoPorcen + "\ncantidad: " + cantidad + "\n"
-				+ (producto != null ? "producto: " + producto : "") + "\n--------------------------------\n";
-	}
 
 	private int id;
 	private int idPedido;
@@ -75,6 +71,11 @@ public class ProductosPedido implements EModel {
 	public void setProducto(Producto producto) {
 		this.producto = producto;
 	}
-	
+	@Override
+	public String toString() {
+		return "\n----- ProductosPedido -----\nid: " + id + "\nidPedido: " + idPedido + "\nprecioFinal: " + precioFinal
+				+ "\ndctoPorcen: " + dctoPorcen + "\ncantidad: " + cantidad + "\n"
+				+ (producto != null ? "producto: " + producto : "") + "\n--------------------------------\n";
+	}	
 	
 }

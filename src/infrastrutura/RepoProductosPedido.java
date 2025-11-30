@@ -9,12 +9,18 @@ import dominio.model.ProductosPedido;
 import infrastrutura.interfaces.IRepoProductosPedido;
 import infrastrutura.interfaces.ISerBD;
 
+/**
+ * Repositorio de productosPedido
+ */
 public class RepoProductosPedido extends AbsRepo<ProductosPedido> implements IRepoProductosPedido {
 	
 	public RepoProductosPedido(ISerBD bd, EFactory<ProductosPedido> fac) {
 		super(bd, fac, "productosPedido");
 	}
 
+	/**
+	 * Funcion para pedir todos los productos de un pedido
+	 */
 	@Override
 	public ArrayList<ProductosPedido> getAllFromPedidoVenta(int idPedidoVenta) throws SQLException {
 		String query = "SELECT * FROM " + tabla + " WHERE idPedido = ?;";

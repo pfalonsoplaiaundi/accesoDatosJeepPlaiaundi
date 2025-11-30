@@ -6,6 +6,10 @@ import java.util.ArrayList;
 
 import dominio.EModel;
 
+/**
+ * Contrato de abstraccion de repositorios
+ * @param <T> Modelo de dominio
+ */
 public interface IAbstracRepo<T extends EModel> {
 
 	public T get(int id) throws SQLException;

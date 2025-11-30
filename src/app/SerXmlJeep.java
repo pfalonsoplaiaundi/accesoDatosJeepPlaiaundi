@@ -5,11 +5,16 @@ import java.util.HashMap;
 
 import org.w3c.dom.Element;
 
+import app.interfaces.ISerBDJeep;
+import app.interfaces.ISerXmlJeep;
 import dominio.model.PedidosVenta;
 import dominio.model.Producto;
 import dominio.model.ProductosPedido;
 import infrastrutura.interfaces.ISerDom;
 
+/**
+ * Objeto para la creacion del xml de backup
+ */
 public class SerXmlJeep implements ISerXmlJeep {
 
 	private ISerDom xml;
@@ -20,7 +25,29 @@ public class SerXmlJeep implements ISerXmlJeep {
 		this.bd = bd;
 	}
 	
-	
+	/**
+	 * Crear el backup bajo el arbol:
+	 * 	pedidosVenta
+	 * 		pedidoVenta[id]
+	 * 			fecha
+	 * 			bRecoger
+	 * 			fecEntrega
+	 * 			direccion
+	 * 			idFactura
+	 * 			idCliente
+	 * 			productosPedido
+	 * 				productoPedido[id]
+	 * 					precioFinal
+	 * 					dctoPorcen
+	 * 					cantidad
+	 * 					producto[id, categoria]
+	 * 						alias
+	 * 						descripcion
+	 * 						precioVenta
+	 * 						precioCompra
+	 * 						stock
+	 * 						tipoIva
+	 */
 	@Override
 	public boolean crearBackup() {
 		

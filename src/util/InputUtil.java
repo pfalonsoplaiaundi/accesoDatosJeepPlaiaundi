@@ -3,8 +3,14 @@ package util;
 import java.util.Arrays;
 import java.util.Scanner;
 
+/**
+ * Clase generica de peticiones por consola
+ */
 public class InputUtil {
 	
+	/**
+	 * Patron de diseño singleton
+	 */
 	protected static InputUtil instance;
 	
 	protected Scanner scn;
@@ -20,26 +26,39 @@ public class InputUtil {
 		this.scn = new Scanner(System.in);
 	}
 	
+	/**
+	 * Metodo de lectura de strings
+	 * @param mensaje
+	 * @return
+	 */
+	protected String leerString(String mensaje) {
+		System.out.print(mensaje);
+		return scn.nextLine().trim();
+	}
+	
+	/**
+	 * Metodo recursivo de lectura de int
+	 * @param mensaje
+	 * @return
+	 */
 	protected int leerInt(String mensaje) {
 		try {
-			System.out.print(mensaje);
-			String intTemp = scn.nextLine().trim();
+			String intTemp = leerString(mensaje);
 			return Integer.parseInt(intTemp);
 		} catch (Exception e) {
 			System.out.println("ERROR -> Por favor introduzca un numero entero");
 			return leerInt(mensaje);
 		}
 	}
-	
-	protected String leerString(String mensaje) {
-		System.out.print(mensaje);
-		return scn.nextLine().trim();
-	}
-	
+		
+	/**
+	 * Metodo recursivo de lectura de doubles
+	 * @param mensaje
+	 * @return
+	 */
 	protected Double leerDouble(String mensaje) {
 	    try {
-	        System.out.print(mensaje);
-	        String doubleTemp = scn.nextLine().trim(); 
+	        String doubleTemp = leerString(mensaje); 
 	        String numeroFormatoEstandar = doubleTemp.replace(',', '.');
 	        return Double.parseDouble(numeroFormatoEstandar);
 	        
@@ -52,10 +71,14 @@ public class InputUtil {
 	// Definimos los arrays como atributos de la clase (puedes añadir o quitar palabras aquí)
 	protected final String[] INPUTS_POSITIVOS = {"s", "si", "y", "yes", "true", "verdadero", "1"};
 	protected final String[] INPUTS_NEGATIVOS = {"n", "no", "not", "false", "falso", "0"};
+	/**
+	 * Metodo recursivo de lectura de booleanos
+	 * @param mensaje
+	 * @return
+	 */
 	protected Boolean leerBoolean(String mensaje) {
 	    try {
-	        System.out.print(mensaje + " (s/n): ");
-	        String entrada = scn.nextLine().trim().toLowerCase();
+	        String entrada = leerString(mensaje + " (s/n): ").toLowerCase();
 	        if (Arrays.asList(INPUTS_POSITIVOS).contains(entrada)) {
 	            return true;
 	        }	        

@@ -5,6 +5,9 @@ import java.util.Map;
 
 import dominio.ERenderizable;
 
+/**
+ * Widget de renderizacion de menus para la app
+ */
 public class Menu implements ERenderizable {
 
 	private String mensajeMenu;
@@ -17,6 +20,9 @@ public class Menu implements ERenderizable {
 		crearMensajeMenu();
 	}
 	
+	/**
+	 * Construccion del mensaje del menu
+	 */
 	private void crearMensajeMenu() {
 		StringBuilder builder = new StringBuilder();
 		// Creamos el mensaje con un builder para ir paso a paso

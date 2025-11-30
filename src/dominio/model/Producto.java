@@ -2,8 +2,14 @@ package dominio.model;
 
 import dominio.EModel;
 
+/**
+ * Modelo de dominio producto
+ */
 public class Producto implements EModel {
 
+	/**
+	 * Enum para control de categoria
+	 */
 	public enum Categoria{
 		papeleria,
 		manualidades,

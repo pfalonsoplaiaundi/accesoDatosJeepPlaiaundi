@@ -5,6 +5,9 @@ import dominio.model.PedidosVenta;
 import infrastrutura.interfaces.IRepoPedidosVenta;
 import infrastrutura.interfaces.ISerBD;
 
+/**
+ * Repositorio de dominio de pedidosVenta
+ */
 public class RepoPedidosVenta extends AbsRepo<PedidosVenta> implements IRepoPedidosVenta {
 	
 	public RepoPedidosVenta(ISerBD bd, EFactory<PedidosVenta> fac) {

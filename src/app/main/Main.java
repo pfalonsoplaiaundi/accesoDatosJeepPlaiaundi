@@ -1,17 +1,17 @@
 package app.main;
 
 import app.ControlMenuPrincipal;
-import app.ISerBDJeep;
-import app.ISerXmlJeep;
 import app.InputsApp;
 import app.SerBDJeep;
 import app.SerXmlJeep;
+import app.interfaces.ISerBDJeep;
+import app.interfaces.ISerXmlJeep;
 import dominio.factorias.FacPedidosVenta;
 import dominio.factorias.FacProducto;
 import dominio.factorias.FacProductosPedido;
-import dominio.factorias.IFacPedidosVenta;
-import dominio.factorias.IFacProducto;
-import dominio.factorias.IFacProductosPedido;
+import dominio.factorias.interfaces.IFacPedidosVenta;
+import dominio.factorias.interfaces.IFacProducto;
+import dominio.factorias.interfaces.IFacProductosPedido;
 import infrastrutura.RepoPedidosVenta;
 import infrastrutura.RepoProducto;
 import infrastrutura.RepoProductosPedido;
@@ -62,6 +62,7 @@ public class Main {
 			
 			// ---------- Fin carga de dependencias ---------
 			while(true) {
+				// Este bucle sirve para cargar el menu en bucle hasta que el menu cierre el programa.
 				new ControlMenuPrincipal(serXML, serBD, input).render();				
 			}
 

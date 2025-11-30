@@ -16,6 +16,10 @@ import infrastrutura.interfaces.IAbstracRepo;
 import infrastrutura.interfaces.ISerBD;
 import jakarta.persistence.Column;
 
+/**
+ * Repositorio abstracto con la logica de peticion contra la bd
+ * @param <T> Modelo de dominio
+ */
 public abstract class AbsRepo<T extends EModel> implements IAbstracRepo<T> {
 
 	protected ISerBD bd;
@@ -29,6 +33,9 @@ public abstract class AbsRepo<T extends EModel> implements IAbstracRepo<T> {
 		this.tabla = tabla;
 	}
 	
+	/**
+	 * Funcion de consulta a la bd que devuelve objetos de dominio por id
+	 */
 	@Override
 	public T get(int id) throws SQLException {
 	    String query = "SELECT * FROM " + tabla + " WHERE id = ? ;";
@@ -39,6 +46,9 @@ public abstract class AbsRepo<T extends EModel> implements IAbstracRepo<T> {
 	    return null;
 	}
 
+	/**
+	 * Funcion de consulta a la bd que devuelve todos los objetos de dominio pedidos
+	 */
 	@Override
 	public ArrayList<T> getAll() throws SQLException {
 		String query = "SELECT * FROM " + tabla + ";";
@@ -50,6 +60,11 @@ public abstract class AbsRepo<T extends EModel> implements IAbstracRepo<T> {
 		return result;
 	}
 
+	/**
+	 * Funcion de mapeo en array de cambios de los objetos mediante reflexion
+	 * sirve para construir dinamicamente las consultas de update de los objetos
+	 * @param model
+	 */
 	private void mapeo(T model) {
 		// Recupero la clase del modelo
 	    Class<?> clazz = model.getClass();
@@ -89,12 +104,18 @@ public abstract class AbsRepo<T extends EModel> implements IAbstracRepo<T> {
 	    }  
     }
 	
+	/**
+	 * Funcion de eliminacion de la bd por id
+	 */
 	@Override
 	public boolean delete(int id) throws SQLException {
 		String query = "DELETE FROM " + tabla + " WHERE id = ? ;";
 		return queryParam(query, id);
 	}
 	
+	/**
+	 * Funcion para insertar en la bd un modelo de dominio
+	 */
 	@Override
 	public boolean insert(T model) throws SQLException {
 		mapeo(model); // Reflexion para rellenar el mapa de los atributos
@@ -117,6 +138,9 @@ public abstract class AbsRepo<T extends EModel> implements IAbstracRepo<T> {
 		return queryParam(query, param.toArray());
 	}
 
+	/**
+	 * Funcion para actualizar un objeto de id x con los parametros del proporcionado
+	 */
 	@Override
 	public boolean update(int id, T nuevo) throws SQLException {
 		mapeo(nuevo);
@@ -136,32 +160,49 @@ public abstract class AbsRepo<T extends EModel> implements IAbstracRepo<T> {
 		return queryParam(query, campos.toArray());
 	}
 	
+	/**
+	 * Peticion simple a la bd
+	 */
 	@Override
 	public boolean querySimple(String query) throws SQLException {
 		PreparedStatement prepaStm = bd.getConn().prepareStatement(query);
 		return prepaStm.execute();
 	}
 	
-	
+	/**
+	 * Peticion parametrizada a la bd
+	 */
 	@Override
 	public boolean queryParam(String query, Object... param) throws SQLException {
 		PreparedStatement prepaStm = bd.getConn().prepareStatement(query);
 		return setParam(prepaStm, param).execute();
 	}
 	
+	/**
+	 * Peticion simple con retorno
+	 */
 	@Override
 	public ResultSet queryReturn(String query) throws SQLException {
 		PreparedStatement prepaStm = bd.getConn().prepareStatement(query);
 		return prepaStm.executeQuery();
 	}
 	
+	/**
+	 * Peticion parametrizada con retorno
+	 */
 	@Override
 	public ResultSet queryReturnParam(String query, Object... param) throws SQLException {
 		PreparedStatement prepaStm = bd.getConn().prepareStatement(query);
 		return setParam(prepaStm, param).executeQuery();
 	}
 
-	
+	/**
+	 * Setea dinamicamente los atributos segun su tipo
+	 * @param prepaStm Query que queremos setear
+	 * @param param Paramtros dinamicos que se le pasan
+	 * @return devuelve la query seteada
+	 * @throws SQLException 
+	 */
 	private PreparedStatement setParam(PreparedStatement prepaStm, Object ...param) throws SQLException {
 		for (int i = 0; i < param.length; i++) {
 			
@@ -176,6 +217,8 @@ public abstract class AbsRepo<T extends EModel> implements IAbstracRepo<T> {
 			
 			} else if(param[i] instanceof Double) {
 				prepaStm.setDouble(i+1, (Double) param[i]);
+			} else {
+				prepaStm.setObject(i+1, param[i]);
 			}
 		}
 		
