@@ -91,8 +91,8 @@ public class SerXmlJeep implements ISerXmlJeep {
 				Element productosPedido = xml.insertar(productosPedidos, "productosPedido", attr);
 				
 					xml.insertar(productosPedido, "precioFinal"		, productoPedido.getPrecioFinal()+"");
-					xml.insertar(productosPedido, "dctoPorcen"		, productoPedido.getPrecioFinal()+"");
-					xml.insertar(productosPedido, "cantidad"		, productoPedido.getPrecioFinal()+"");
+					xml.insertar(productosPedido, "dctoPorcen"		, productoPedido.getDctoPorcen()+"");
+					xml.insertar(productosPedido, "cantidad"		, productoPedido.getCantidad()+"");
 				
 					// Insertamos el producto
 					Producto p = productoPedido.getProducto();

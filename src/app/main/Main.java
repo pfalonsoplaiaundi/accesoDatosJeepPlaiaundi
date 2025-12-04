@@ -10,7 +10,6 @@ import dominio.factorias.FacPedidosVenta;
 import dominio.factorias.FacProducto;
 import dominio.factorias.FacProductosPedido;
 import dominio.factorias.interfaces.IFacPedidosVenta;
-import dominio.factorias.interfaces.IFacProducto;
 import dominio.factorias.interfaces.IFacProductosPedido;
 import infrastrutura.RepoPedidosVenta;
 import infrastrutura.RepoProducto;
@@ -38,8 +37,8 @@ public class Main {
 			// Factorias de creacion de modelos de dominio
 			// y repositorios de objetos
 			
-			// Producto
-			IFacProducto fProducto = new FacProducto();
+			// Producto	
+			FacProducto fProducto = new FacProducto();
 			IRepoProducto rProducto = new RepoProducto(bd, fProducto);
 			
 			// ProductosPedidos
