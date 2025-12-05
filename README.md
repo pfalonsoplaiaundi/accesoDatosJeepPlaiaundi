@@ -83,10 +83,6 @@ La estructura del proyecto se basa en los siguientes diagramas de clases:
 
 ### Modelo, Factorías y App
 ![Diagrama General](UMLAccesoADatos_2.png)
-
-## ✒️ Autores
-
-* **[Tu Nombre Aquí]** - *Desarrollo e Implementación*
 * **[Nombre del compañero si aplica]**
 
 ---
